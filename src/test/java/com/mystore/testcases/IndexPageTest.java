@@ -10,7 +10,7 @@ import com.mystore.pageobjects.IndexPage;
 
 public class IndexPageTest extends BaseClass{
 
-	IndexPage indexPage;
+	IndexPage indexPage = new IndexPage(getDriver());
 	@BeforeMethod
 	public void setUp() {
 		launchApp();
@@ -18,12 +18,11 @@ public class IndexPageTest extends BaseClass{
 	
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	
 	@Test
 	public void verifyLogo() {
-		indexPage = new IndexPage();
 		boolean result =indexPage.validateLogo();
 		Assert.assertTrue(result);
 	}

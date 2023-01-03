@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -9,7 +10,10 @@ import com.mystore.actiondriver.Action;
 import com.mystore.basepackage.BaseClass;
 
 public class AddToCartPage extends BaseClass {
-	
+	WebDriver driver;
+	public AddToCartPage(WebDriver driver) {
+		this.driver=driver;
+	}
 	@FindBy(id = "quantity_wanted")
 	WebElement quantity;
 	
@@ -26,7 +30,7 @@ public class AddToCartPage extends BaseClass {
 	WebElement proceedToCheckOut;
 	
 	public AddToCartPage() {	
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public void enterQuantity(String quantityVal) throws Throwable {
@@ -41,19 +45,18 @@ public class AddToCartPage extends BaseClass {
 	
 	public void clickOnAddToCart() throws Throwable{
 		Thread.sleep(2000);
-		Action.click(driver,addToCardBtn);
+		Action.click(getDriver(),addToCardBtn);
 		Thread.sleep(4000);
 	}
 	
 	public boolean validateAddToCart() throws Throwable {
 		Thread.sleep(10000);
-		return Action.isDisplayed(driver, successMessage);
+		return Action.isDisplayed(successMessage);
 	}
 	
-	public OrderPage clickOnCheckOut() throws Throwable {
-		Action.JSClick(driver, proceedToCheckOut);
+	public void clickOnCheckOut() throws Throwable {
+		Action.JSClick(getDriver(), proceedToCheckOut);
 		Thread.sleep(3000);
-		return new OrderPage();
 	}
 
 }

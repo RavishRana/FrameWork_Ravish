@@ -9,16 +9,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeTest;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.mystore.actiondriver.Action;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static Properties prop;
-	public static WebDriver driver;
-	
+	public ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	//public WebDriver driver;
+	public void setDriver(WebDriver driver) {
+		this.driver.set(driver);
+	}
+	public WebDriver getDriver() {
+		return this.driver.get();
+	}
 	
 	
 	@BeforeTest
@@ -38,27 +42,27 @@ public class BaseClass {
 		}
 
 	}
-	public static void launchApp() {
+	public void launchApp() {
 		WebDriverManager.chromedriver().setup();
 		//WebDriverManager.firefoxdriver().setup();
 		//WebDriverManager.iedriver().setup();
 		String browserName= prop.getProperty("browser");
 		if(browserName.contains("Chrome")) {
-			driver=new ChromeDriver();
-			driver.manage().window().maximize();
-			System.out.println(driver + " Driver has been instantiated. ");
+			setDriver(new ChromeDriver());
+			//driver.manage().window().maximize();
+			System.out.println(getDriver() + " Driver has been instantiated. ");
 		}
 		else if(browserName.contains("Firefox")) {
-			driver = new FirefoxDriver();
+			setDriver(new FirefoxDriver());
 			System.out.println(driver + " Driver has been instantiated. ");
 		}
 		else if(browserName.contains("IE")) {
-			driver = new InternetExplorerDriver();
+			setDriver(new InternetExplorerDriver());
 			System.out.println(driver + " Driver has been instantiated. ");
 		}
-		Action.implicitWait(driver, 10);
-		Action.pageLoadTimeOut(driver, 30);
-		driver.get(prop.getProperty("url"));
+		Action.implicitWait(getDriver(), 10);
+		Action.pageLoadTimeOut(getDriver(), 30);
+		getDriver().get(prop.getProperty("url"));
 	}
 	
 }

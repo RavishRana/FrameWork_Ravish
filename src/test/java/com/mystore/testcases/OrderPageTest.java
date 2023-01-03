@@ -32,18 +32,17 @@ public class OrderPageTest extends BaseClass {
 
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	@Test
 	public void verifyProductPrice() throws Throwable {
 		
-		indexPage = new IndexPage();
-		searchResultPage = indexPage.searchProject("t-shirts");
+		indexPage.searchProject("t-shirts");
 		addToCartPage = searchResultPage.clickOnProduct();
 		addToCartPage.enterQuantity("3");
 		addToCartPage.selectSize("M");
 		addToCartPage.clickOnAddToCart();
-		orderPage= addToCartPage.clickOnCheckOut();
+		addToCartPage.clickOnCheckOut();
 		Double unitPrice = orderPage.getUnitPrice();
 		Double totalPrice = orderPage.getTotalPrice();
 		Double totalExpectedVal = (unitPrice*3)+2;

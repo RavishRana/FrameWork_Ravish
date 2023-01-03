@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,6 +9,7 @@ import com.mystore.actiondriver.Action;
 import com.mystore.basepackage.BaseClass;
 
 public class LoginPage extends BaseClass{
+	WebDriver driver;
 	
 	@FindBy(name = "user-name")
 	WebElement userName;
@@ -23,29 +25,29 @@ public class LoginPage extends BaseClass{
 	
 	@FindBy(name = "SubmitCreate")
 	WebElement createAnAccountBtn;
+
 	
-	public LoginPage() {	
+	public LoginPage(WebDriver driver) {
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	public HomePage login(String uname, String pswd) throws InterruptedException {
+	public void login(String uname, String pswd) throws InterruptedException {
 		Action.fluentWait(driver, userName, 2);
 		Action.type(userName, uname);
 		Action.type(password, pswd);
-		Action.fluentWait(driver, LoginBtn, 2);
-		Action.click(driver, LoginBtn);
-		return new HomePage();
+		Action.fluentWait(driver,LoginBtn, 2);
+		Action.click(driver,LoginBtn);
+		
 	}
 	
-	public AddressPage login1(String uname, String pswd) {
+	public void login1(String uname, String pswd) {
 		Action.type(userName, uname);
 		Action.type(password, pswd);
-		Action.click(driver, LoginBtn);
-		return new AddressPage();
+		Action.click(driver,LoginBtn);
 	}
-	public AccountCreationPage createNewAccount(String newEmail) {
+	public void createNewAccount(String newEmail) {
 		Action.type(emailForNewAccount, newEmail);
 		Action.click(driver, createAnAccountBtn);
-		return new AccountCreationPage();
 	}
 }

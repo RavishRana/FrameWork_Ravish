@@ -20,7 +20,7 @@ import com.mystore.pageobjects.SearchResultPage;
  */
 public class AddToCartPageTest extends BaseClass{
 	
-	IndexPage indexPage;
+	IndexPage indexPage = new IndexPage(getDriver());
 	SearchResultPage searchResultPage;
 	AddToCartPage addToCartPage;
 	
@@ -31,12 +31,11 @@ public class AddToCartPageTest extends BaseClass{
 
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	@Test
 	public void addToCart() throws Throwable {
-		indexPage = new IndexPage();
-		searchResultPage = indexPage.searchProject("t-shirts");
+		indexPage.searchProject("t-shirts");
 		addToCartPage = searchResultPage.clickOnProduct();
 		addToCartPage.enterQuantity("3");
 		addToCartPage.selectSize("M");

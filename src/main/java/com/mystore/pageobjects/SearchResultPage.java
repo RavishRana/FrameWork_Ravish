@@ -1,6 +1,6 @@
 package com.mystore.pageobjects;
 
-import org.apache.commons.math3.analysis.function.Add;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,18 +12,19 @@ public class SearchResultPage extends BaseClass {
 
 	@FindBy(xpath = "//img[@title='Faded Short Sleeve T-shirts']")
 	WebElement productResult;
-
-	public SearchResultPage() {
+	WebDriver driver;
+	public SearchResultPage(WebDriver driver) {
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 
 	public boolean isProductAvailable() {
-		return Action.isDisplayed(driver, productResult);
+		return Action.isDisplayed(productResult);
 	}
 
 	public AddToCartPage clickOnProduct() throws Throwable {
 		Thread.sleep(10000);
-		Action.click(driver, productResult);
+		Action.click(getDriver(), productResult);
 		return new AddToCartPage();
 	}
 }

@@ -29,13 +29,13 @@ public class SearchResultPageTest extends BaseClass {
 
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
+
 	@Test
 	public void productVisibility() throws Throwable {
-		indexPage = new IndexPage();
-		 searchResultPage = indexPage.searchProject("t-shirts");
-		 Assert.assertTrue(searchResultPage.isProductAvailable());
+		indexPage.searchProject("t-shirts");
+		Assert.assertTrue(searchResultPage.isProductAvailable());
 	}
 
 }

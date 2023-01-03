@@ -25,15 +25,15 @@ import com.mystore.pageobjects.ShippingPage;
  *
  */
 public class EndToEndTest extends BaseClass {
-	LoginPage loginPage;
-	AddressPage addressPage;
-	SearchResultPage searchResultPage;
-	AddToCartPage addToCartPage;
-	OrderPage orderPage;
-	ShippingPage shippingPage;
-	PaymentPage paymentPage;
-	OrderSummaryPage orderSummary;
-	OrderConfirmationPage orderConfirmationPage;
+	LoginPage loginPage = new LoginPage(getDriver());
+	AddressPage addressPage = new AddressPage(getDriver());
+	SearchResultPage searchResultPage = new SearchResultPage(getDriver());
+	AddToCartPage addToCartPage = new AddToCartPage(getDriver());
+	OrderPage orderPage = new OrderPage(getDriver());
+	ShippingPage shippingPage = new ShippingPage(getDriver());
+	PaymentPage paymentPage = new PaymentPage(getDriver());
+	OrderSummaryPage orderSummary = new OrderSummaryPage(getDriver());
+	OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage(getDriver());
 
 	@BeforeMethod
 	public void setUp() {
@@ -42,23 +42,22 @@ public class EndToEndTest extends BaseClass {
 
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	@Test
 	public void endToEndTest() throws Throwable {
-		loginPage = new LoginPage();
-		addToCartPage = searchResultPage.clickOnProduct();
+		searchResultPage.clickOnProduct();
 		addToCartPage.enterQuantity("3");
 		addToCartPage.selectSize("M");
 		addToCartPage.clickOnAddToCart();
-		orderPage = addToCartPage.clickOnCheckOut();
-		loginPage = orderPage.clickOnCheckout();
-		addressPage =loginPage.login1(prop.getProperty("username"), prop.getProperty("password"));
-		shippingPage =addressPage.clickOnCheckout();
+		addToCartPage.clickOnCheckOut();
+		orderPage.clickOnCheckout();
+		loginPage.login1(prop.getProperty("username"), prop.getProperty("password"));
+		addressPage.clickOnCheckout();
 		shippingPage.checkTheTerms();
-		paymentPage = shippingPage.clickOnProceedToCheckout();
-		orderSummary = paymentPage.clickOnPaymentMethod();
-		orderConfirmationPage = orderSummary.clickOnConfirmOrder();
+		shippingPage.clickOnProceedToCheckout();
+		paymentPage.clickOnPaymentMethod();
+		orderSummary.clickOnConfirmOrder();
 		String actualMsg = orderConfirmationPage.validateConfirmMessage();
 		String excpectedMsg = "Your order on My Store is complete";
 		Assert.assertEquals(excpectedMsg, actualMsg);

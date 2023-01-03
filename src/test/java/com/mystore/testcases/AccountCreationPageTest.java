@@ -20,9 +20,8 @@ import com.mystore.pageobjects.LoginPage;
  */
 public class AccountCreationPageTest extends BaseClass {
 
-	IndexPage indexPage;
-	LoginPage loginPage;
-	AccountCreationPage accountCreationPage;
+	LoginPage loginPage = new LoginPage(getDriver());
+	AccountCreationPage accountCreationPage = new AccountCreationPage(getDriver());
 
 	@BeforeMethod
 	public void setUp() {
@@ -31,13 +30,11 @@ public class AccountCreationPageTest extends BaseClass {
 
 	@AfterMethod
 	public void teatDown() {
-		driver.quit();
+		getDriver().quit();
 	}
 	@Test
 	public void verifyAccoounCreationPageTest() {
-		indexPage = new IndexPage();
-		loginPage = indexPage.clickOnSignIn();
-		accountCreationPage= loginPage.createNewAccount("kjdfhksd@gmail.com");
+		loginPage.createNewAccount("kjdfhksd@gmail.com");
 		boolean result = accountCreationPage.validateAccountCreatePage();
 		Assert.assertTrue(result);
 	}

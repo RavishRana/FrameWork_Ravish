@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,19 +15,19 @@ public class ShippingPage extends BaseClass{
 	
 	@FindBy(id = "cgv")
 	WebElement terms;
-	
-	public ShippingPage() {
+	WebDriver driver;
+	public ShippingPage(WebDriver driver) {
+		this.driver= driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void checkTheTerms() {
-		Action.click(driver, terms);
+		Action.click(getDriver(), terms);
 	}
 	
-	public PaymentPage clickOnProceedToCheckout() throws Throwable {
+	public void clickOnProceedToCheckout() throws Throwable {
 		Thread.sleep(3000);
-		Action.click(driver, proceedToCheckOutBtn);
-		return new PaymentPage();
+		Action.click(getDriver(), proceedToCheckOutBtn);
 	}
 	
 

@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,9 +9,10 @@ import com.mystore.actiondriver.Action;
 import com.mystore.basepackage.BaseClass;
 
 public class OrderPage extends BaseClass {
-	
-	public OrderPage() {	
-		PageFactory.initElements(driver, this);
+	WebDriver driver;
+	public OrderPage(WebDriver driver) {
+		this.driver= driver;
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	@FindBy(xpath = "//td[@data-title='Unit price']/span/span")
@@ -38,8 +40,7 @@ public class OrderPage extends BaseClass {
 		return finalTotalPrice/100;
 	}
 	
-	public LoginPage clickOnCheckout() {
-		Action.click(driver, proceedToCheckOut);
-		return new LoginPage();
+	public void clickOnCheckout() {
+		Action.click(getDriver(), proceedToCheckOut);
 	}
 }

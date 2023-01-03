@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,8 +9,9 @@ import com.mystore.actiondriver.Action;
 import com.mystore.basepackage.BaseClass;
 
 public class AccountCreationPage extends BaseClass {
-	
-	public AccountCreationPage() {
+	WebDriver driver;
+	public AccountCreationPage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -17,7 +19,7 @@ public class AccountCreationPage extends BaseClass {
 	WebElement formTitle;
 	
 	public boolean validateAccountCreatePage() {
-		return Action.isDisplayed(driver, formTitle);
+		return Action.isDisplayed(formTitle);
 	}
 
 }
