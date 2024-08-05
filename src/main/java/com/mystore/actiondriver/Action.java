@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -26,17 +27,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.mystore.basepackage.BaseClass;
 
-
-
 public class Action extends BaseClass {
-	
+
 	public static void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
+	}
+
+	public static void scrollByCoOrdinates(WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,500)");
 
 	}
 
-	public static void click(WebDriver driver,WebElement ele) {
+	public static void actionclick(WebDriver driver, WebElement ele) {
 
 		Actions act = new Actions(driver);
 		act.moveToElement(ele).click().build().perform();
@@ -110,33 +114,20 @@ public class Action extends BaseClass {
 		return flag;
 	}
 
-	/**
-	 * Type text at location
-	 * 
-	 * @param locatorName
-	 * @param text
-	 * @return - true/false
-	 */
-	public static boolean type(WebElement ele, String text) {
-		boolean flag = false;
-		try {
-			flag = ele.isDisplayed();
-			ele.clear();
-			ele.sendKeys(text);
-			// logger.info("Entered text :"+text);
-			flag = true;
-		} catch (Exception e) {
-			System.out.println("Location Not found");
-			flag = false;
-		} finally {
-			if (flag) {
-				System.out.println("Successfully entered value");
-			} else {
-				System.out.println("Unable to enter value");
-			}
+	public void fill(WebDriver driver, WebElement searchBar, String value_To_Fill) {
 
+		if (value_To_Fill.equals("")) {
+			findElementPresence(driver, searchBar).click();
+			findElementPresence(driver, searchBar).clear();
+			return;
 		}
-		return flag;
+		try {
+			findElementPresence(driver, searchBar).click();
+			findElementPresence(driver, searchBar).clear();
+			findElementPresence(driver, searchBar).sendKeys(value_To_Fill);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static boolean selectBySendkeys(String value, WebElement ele) {
@@ -306,7 +297,8 @@ public class Action extends BaseClass {
 	public static boolean switchToFrameByIndex(WebDriver driver, int index) {
 		boolean flag = false;
 		try {
-			new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
+			Thread.sleep(3000);
+			// WebDriverWait wait = new WebDriverWait(driver, 10);
 			driver.switchTo().frame(index);
 			flag = true;
 			return true;
@@ -410,7 +402,6 @@ public class Action extends BaseClass {
 	public static boolean moveToElement(WebDriver driver, WebElement ele) {
 		boolean flag = false;
 		try {
-			// WebElement element = driver.findElement(locator);
 			JavascriptExecutor executor = (JavascriptExecutor) driver;
 			executor.executeScript("arguments[0].scrollIntoView(true);", ele);
 			Actions actions = new Actions(driver);
@@ -688,22 +679,32 @@ public class Action extends BaseClass {
 		return text;
 	}
 
-	public static boolean click1(WebElement locator, String locatorName) {
-		boolean flag = false;
+	public void click(WebDriver driver, WebElement Element) {
 		try {
-			locator.click();
-			flag = true;
-			return true;
+			Element.click();
 		} catch (Exception e) {
-			return false;
-		} finally {
-			if (flag) {
-				System.out.println("Able to click on \"" + locatorName + "\"");
-			} else {
-				System.out.println("Click Unable to click on \"" + locatorName + "\"");
+			try {
+				System.out.println("First try in catch");
+				((JavascriptExecutor) driver).executeScript("arguments[0].click();", Element);
+				Element.click();
+			} catch (Exception e2) {
+				System.out.println("Second try in catch");
+				((JavascriptExecutor) driver).executeScript("window.scrollTo(0," + Element.getLocation().y + ")");
 			}
 		}
+	}
 
+	public void waitFor(long milliseconds) {
+		try {
+			Thread.sleep(milliseconds);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public WebElement findElementPresence(WebDriver driver, WebElement Ele) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
+		return wait.until(ExpectedConditions.elementToBeClickable(Ele));
 	}
 
 	public static void fluentWait(WebDriver driver, WebElement element, int timeOut) {
@@ -717,10 +718,10 @@ public class Action extends BaseClass {
 	}
 
 	public static void implicitWait(WebDriver driver, int timeOut) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
-	public static void explicitWait(WebDriver driver, WebElement element, int timeOut) {
+	public static void explicitWait(WebDriver driver, WebElement element, Duration timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, timeOut);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
@@ -729,11 +730,11 @@ public class Action extends BaseClass {
 		driver.manage().timeouts().pageLoadTimeout(timeOut, TimeUnit.SECONDS);
 	}
 
-	public static String TakeScreenShot(WebDriver driver, String filename) {
-		
+	public static String TakeScreenShot(WebDriver webDriver, String filename) {
+
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		
-		TakesScreenshot takesScreenshot = (TakesScreenshot)driver;
+
+		TakesScreenshot takesScreenshot = (TakesScreenshot) webDriver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		String destination = System.getProperty("user.dir") + "\\ScreenShots\\" + filename + "_" + dateName + ".png";
 
@@ -742,17 +743,24 @@ public class Action extends BaseClass {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-		/*
-		 * // This new path for jenkins String newImageString =
-		 * "http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/" +
-		 * filename + "_" + dateName + ".png";
-		 */
 		return destination;
 	}
 
 	public static String getCurrentTime() {
 		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hhmmss").format(new Date());
 		return currentDate;
+	}
+
+	public static String generateRandomString() {
+		final String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+		final int length = 5;
+		Random random = new Random();
+		StringBuilder sb = new StringBuilder(length);
+		for (int i = 0; i < length; i++) {
+			int index = random.nextInt(characters.length());
+			sb.append(characters.charAt(index));
+		}
+		return sb.toString();
 	}
 
 }

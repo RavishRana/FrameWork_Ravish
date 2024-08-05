@@ -1,14 +1,4 @@
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\OrderConfirmationPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\ShippingPage.java
 C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\basepackage\BaseClass.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\AccountCreationPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\SearchResultPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\AddToCartPage.java
+C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\reporting\ExtentReportManager.java
 C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\actiondriver\Action.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\IndexPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\HomePage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\LoginPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\OrderSummaryPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\OrderPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\PaymentPage.java
-C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\AddressPage.java
+C:\Users\ravish.rana\GIT\FrameWork_Ravish\src\main\java\com\mystore\pageobjects\FlipkartHome.java
