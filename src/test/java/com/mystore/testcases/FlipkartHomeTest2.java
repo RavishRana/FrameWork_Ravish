@@ -1,14 +1,13 @@
 package com.mystore.testcases;
 
 import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-
+import com.mystore.actiondriver.Action;
 import com.mystore.basepackage.BaseClass;
 import com.mystore.pageobjects.FlipkartHome;
 
-public class FlipkartHomeTest extends BaseClass {
+public class FlipkartHomeTest2 extends BaseClass {
 
 	FlipkartHome flipKartHomeObj;
 

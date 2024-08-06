@@ -1,5 +1,6 @@
 package com.mystore.pageobjects;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -7,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import com.mystore.actiondriver.Action;
 
 public class FlipkartHome{
@@ -48,8 +50,8 @@ public class FlipkartHome{
 
 	public void searchProduct() throws Exception {
 		action = new Action();
+		action.waitFor(2000);
 		action.fill(driver,SearchBar, "Samsung Galaxy S10");
-		
 		action.waitFor(2000);
 		action.click(driver,mobiles_Results);
 		action.waitFor(1000);
