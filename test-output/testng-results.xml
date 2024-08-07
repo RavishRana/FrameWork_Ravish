@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T19:27:53 IST" name="Suite" finished-at="2024-08-07T19:28:28 IST" duration-ms="34394">
+  <suite started-at="2024-08-07T19:56:31 IST" name="Suite" finished-at="2024-08-07T19:57:03 IST" duration-ms="32428">
     <groups>
     </groups>
-    <test started-at="2024-08-07T19:27:53 IST" name="FireFoxTest" finished-at="2024-08-07T19:28:22 IST" duration-ms="28325">
+    <test started-at="2024-08-07T19:56:31 IST" name="FireFoxTest" finished-at="2024-08-07T19:56:54 IST" duration-ms="22682">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:27:53 IST" name="loadConfig" finished-at="2024-08-07T19:27:53 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:56:31 IST" name="loadConfig" finished-at="2024-08-07T19:56:31 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:27:53 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:28:09 IST" duration-ms="15156" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:56:31 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:56:39 IST" duration-ms="7747" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,65 +37,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:28:09 IST" name="printProducts" finished-at="2024-08-07T19:28:20 IST" duration-ms="11807" status="PASS">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:56:39 IST" name="printProducts" finished-at="2024-08-07T19:56:53 IST" duration-ms="13688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:28:20 IST" name="quitDriver" finished-at="2024-08-07T19:28:22 IST" duration-ms="1094" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@40e10ff8]" started-at="2024-08-07T19:56:53 IST" name="quitDriver" finished-at="2024-08-07T19:56:54 IST" duration-ms="1005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </test> <!-- FireFoxTest -->
-    <test started-at="2024-08-07T19:27:53 IST" name="EdgeTest" finished-at="2024-08-07T19:28:27 IST" duration-ms="34086">
+    <test started-at="2024-08-07T19:56:31 IST" name="ChromeTest" finished-at="2024-08-07T19:57:03 IST" duration-ms="31684">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:27:53 IST" name="loadConfig" finished-at="2024-08-07T19:27:53 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:56:31 IST" name="loadConfig" finished-at="2024-08-07T19:56:31 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:27:53 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:28:01 IST" duration-ms="7690" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:28:01 IST" name="printProducts" finished-at="2024-08-07T19:28:27 IST" duration-ms="25792" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:28:27 IST" name="quitDriver" finished-at="2024-08-07T19:28:27 IST" duration-ms="323" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2024-08-07T19:27:53 IST" name="ChromeTest" finished-at="2024-08-07T19:28:28 IST" duration-ms="34394">
-      <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:27:53 IST" name="loadConfig" finished-at="2024-08-07T19:27:53 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:27:53 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:28:03 IST" duration-ms="9675" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:56:31 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:56:37 IST" duration-ms="5785" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,15 +79,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:28:03 IST" name="printProducts" finished-at="2024-08-07T19:28:27 IST" duration-ms="24152" status="PASS">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:56:37 IST" name="printProducts" finished-at="2024-08-07T19:57:02 IST" duration-ms="25468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:28:27 IST" name="quitDriver" finished-at="2024-08-07T19:28:28 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@56c9bbd8]" started-at="2024-08-07T19:57:02 IST" name="quitDriver" finished-at="2024-08-07T19:57:03 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </test> <!-- ChromeTest -->
+    <test started-at="2024-08-07T19:56:31 IST" name="EdgeTest" finished-at="2024-08-07T19:57:03 IST" duration-ms="32428">
+      <class name="com.mystore.testcases.FlipkartHomeTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:56:31 IST" name="loadConfig" finished-at="2024-08-07T19:56:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:56:31 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:56:37 IST" duration-ms="5751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:56:37 IST" name="printProducts" finished-at="2024-08-07T19:57:03 IST" duration-ms="26141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@33e01298]" started-at="2024-08-07T19:57:03 IST" name="quitDriver" finished-at="2024-08-07T19:57:03 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

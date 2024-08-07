@@ -23,7 +23,7 @@ public class ExtentReportManager implements ITestListener {
 		ExtentSparkReporter spark = new ExtentSparkReporter(
 				System.getProperty("user.dir") + "\\Maven_TestNG\\Reports\\FlipKartTestReport.html");
 		spark.config().setTheme(Theme.STANDARD);
-		spark.config().setDocumentTitle("FlipKart test Automation Report");
+		spark.config().setDocumentTitle("FlipKart test Automation Report : " + context.getClass());
 		spark.config().setEncoding("utf-8");
 		spark.config().setReportName("Flipkart Test Automation Test Results");
 
@@ -76,5 +76,9 @@ public class ExtentReportManager implements ITestListener {
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		test.get().log(Status.SKIP, "Test skipped");
+	}
+	
+	public void logInfo(String info) {
+		test.get().log(Status.INFO, info);
 	}
 }
