@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mystore.testcases.FlipkartHomeTest">
         <methods>
-          <include name="launchApp"/>
+          <include name="launchAppBrowserStack"/>
           <include name="loadConfig"/>
           <include name="printProducts"/>
           <include name="quitDriver"/>

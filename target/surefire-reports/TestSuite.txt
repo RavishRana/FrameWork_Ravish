@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 182.474 s <<< FAILURE! - in TestSuite
-com.mystore.testcases.FlipkartHomeTest.printProducts  Time elapsed: 36.947 s  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 141.175 s <<< FAILURE! - in TestSuite
+com.mystore.testcases.FlipkartHomeTest.printProducts  Time elapsed: 30.203 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
   (Session info: chrome=126.0.6478.61)
@@ -10,32 +10,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [96f97649-6fa1-42be-bb47-0fe741718861, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49382}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.44:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 96f97649-6fa1-42be-bb47-0fe741718861
+Command: [c7de47bd-8998-43c7-9a49-e8ff89be35e2, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49236}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.14:4444/sessio..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7de47bd-8998-43c7-9a49-e8ff89be35e2
 	at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:19)
-
-com.mystore.testcases.FlipkartHomeTest.launchAppBrowserStack[Windows, 11, Edge, latest](0)  Time elapsed: 145.712 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: Edge, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 11}}], desiredCapabilities=Capabilities {browserName: Edge, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 11}, name: Parallel Test - Browser : E...}}]
-Capabilities {}
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/34.195.202.191:443 after 180000 ms
-Caused by: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/34.195.202.191:443 after 180000 ms
-
-com.mystore.testcases.FlipkartHomeTest.launchAppBrowserStack[Windows, 10, Firefox, latest](0)  Time elapsed: 145.712 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: Firefox, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10}, ms:edgeOptions: Capabilities {acceptInsecur...}], desiredCapabilities=Capabilities {browserName: Firefox, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10}, ms:edgeOptions: Capabilities {acceptInsecur..., name: Parallel Test - Browser : F...}}]
-Capabilities {}
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/34.195.202.191:443 after 180000 ms
-Caused by: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/34.195.202.191:443 after 180000 ms
 

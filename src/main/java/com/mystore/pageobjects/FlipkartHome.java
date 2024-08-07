@@ -52,7 +52,7 @@ public class FlipkartHome{
 		action = new Action();
 		action.waitFor(2000);
 		action.fill(driver,SearchBar, "Samsung Galaxy S10");
-		action.waitFor(2000);
+		action.waitFor(4000);
 		action.click(driver,mobiles_Results);
 		action.waitFor(1000);
 		action.click(driver,SelectSamsungCheckBox);
