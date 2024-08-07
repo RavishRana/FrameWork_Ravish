@@ -686,10 +686,10 @@ public class Action extends BaseClass {
 			try {
 				System.out.println("First try in catch");
 				((JavascriptExecutor) driver).executeScript("arguments[0].click();", Element);
-				Element.click();
 			} catch (Exception e2) {
+				driver.navigate().refresh();
 				System.out.println("Second try in catch");
-				((JavascriptExecutor) driver).executeScript("window.scrollTo(0," + Element.getLocation().y + ")");
+				((JavascriptExecutor) driver).executeScript("arguments[0].click();", Element);
 			}
 		}
 	}

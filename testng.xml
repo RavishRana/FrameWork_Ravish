@@ -8,7 +8,7 @@
 		<parameter name="browser" value="Chrome" />
 		<parameter name="os" value="Windows" />
 		<parameter name="os_version" value="10" />
-		<parameter name="browser_version" value="126.0" />
+		<parameter name="browser_version" value="latest" />
 		<classes>
 			<class name="com.mystore.testcases.FlipkartHomeTest" />
 		</classes>
@@ -17,7 +17,7 @@
 		<parameter name="browser" value="Firefox" />
 		<parameter name="os" value="Windows" />
 		<parameter name="os_version" value="10" />
-		<parameter name="browser_version" value="127.0" />
+		<parameter name="browser_version" value="latest" />
 		<classes>
 			<class name="com.mystore.testcases.FlipkartHomeTest" />
 		</classes>
@@ -26,7 +26,7 @@
 	<test name="EdgeTest">
 		<parameter name="browser" value="Edge" />
 		<parameter name="os" value="Windows" />
-		<parameter name="os_version" value="10" />
+		<parameter name="os_version" value="11" />
 		<parameter name="browser_version" value="latest" />
 		<classes>
 			<class name="com.mystore.testcases.FlipkartHomeTest" />
