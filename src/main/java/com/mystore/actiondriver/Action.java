@@ -3,11 +3,13 @@ package com.mystore.actiondriver;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -697,15 +699,19 @@ public class Action extends BaseClass {
 		}
 	}
 
-	public WebElement findElementPresence(WebDriver driver, WebElement Ele) {
-		try {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
-			return wait.until(ExpectedConditions.elementToBeClickable(Ele));
-		} catch (Exception e2) {
-			driver.navigate().refresh();
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
-			return wait.until(ExpectedConditions.elementToBeClickable(Ele));
-		}
+	public WebElement findElementPresence(WebDriver driver, WebElement Ele) throws TimeoutException {
+		 Instant endTime = Instant.now().plusSeconds(60);
+
+		    while (Instant.now().isBefore(endTime)) {
+		        try {
+		            WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
+		            return wait.until(ExpectedConditions.elementToBeClickable(Ele));
+		        } catch (Exception e) {
+		            driver.navigate().refresh();
+		        }
+		    }
+
+		    throw new TimeoutException("Element not clickable after 60 seconds of trying.");
 	}
 
 	public static void fluentWait(WebDriver driver, WebElement element, int timeOut) {
