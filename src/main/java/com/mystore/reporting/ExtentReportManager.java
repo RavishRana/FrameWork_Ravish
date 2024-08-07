@@ -23,7 +23,7 @@ public class ExtentReportManager implements ITestListener {
 		ExtentSparkReporter spark = new ExtentSparkReporter(
 				System.getProperty("user.dir") + "\\Maven_TestNG\\Reports\\FlipKartTestReport.html");
 		spark.config().setTheme(Theme.STANDARD);
-		spark.config().setDocumentTitle("FlipKart test Automation Report : " + context.getClass());
+		spark.config().setDocumentTitle("FlipKart test Automation Report : ");
 		spark.config().setEncoding("utf-8");
 		spark.config().setReportName("Flipkart Test Automation Test Results");
 
@@ -58,7 +58,7 @@ public class ExtentReportManager implements ITestListener {
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		ExtentTest extentTest = extent.createTest("Flipkart Test Run");
+		ExtentTest extentTest = extent.createTest("Flipkart Test Run : Broswer : "  + result.getTestContext().getCurrentXmlTest().getParameter("browser") + "OS : " + result.getTestContext().getCurrentXmlTest().getParameter("os"));
 		test.set(extentTest);
 	}
 

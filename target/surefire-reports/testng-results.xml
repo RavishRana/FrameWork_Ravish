@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T19:29:39 IST" name="Suite" finished-at="2024-08-07T19:31:59 IST" duration-ms="139739">
+  <suite started-at="2024-08-07T20:22:43 IST" name="Suite" finished-at="2024-08-07T20:24:36 IST" duration-ms="112968">
     <groups>
     </groups>
-    <test started-at="2024-08-07T19:29:39 IST" name="ChromeTest" finished-at="2024-08-07T19:31:23 IST" duration-ms="104022">
+    <test started-at="2024-08-07T20:22:43 IST" name="ChromeTest" finished-at="2024-08-07T20:24:18 IST" duration-ms="95115">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T19:29:39 IST" name="loadConfig" finished-at="2024-08-07T19:29:39 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T20:22:43 IST" name="loadConfig" finished-at="2024-08-07T20:22:43 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T19:29:39 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:30:51 IST" duration-ms="72204" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T20:22:43 IST" name="launchAppBrowserStack" finished-at="2024-08-07T20:23:18 IST" duration-ms="34715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T19:30:51 IST" name="printProducts" finished-at="2024-08-07T19:31:22 IST" duration-ms="30900" status="FAIL">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T20:23:18 IST" name="printProducts" finished-at="2024-08-07T20:24:18 IST" duration-ms="59583" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
@@ -46,9 +46,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c7de47bd-8998-43c7-9a49-e8ff89be35e2, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49236}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.14:4444/sessio..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c7de47bd-8998-43c7-9a49-e8ff89be35e2]]>
+Command: [54b0bd58-455a-4b37-bad0-04d83d8b3766, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49238}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.15.73:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54b0bd58-455a-4b37-bad0-04d83d8b3766]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
@@ -57,11 +57,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [c7de47bd-8998-43c7-9a49-e8ff89be35e2, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49236}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.14:4444/sessio..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c7de47bd-8998-43c7-9a49-e8ff89be35e2
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+Command: [54b0bd58-455a-4b37-bad0-04d83d8b3766, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : C..., username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49238}, goog:loggingPrefs: {browser: INFO}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.15.73:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54b0bd58-455a-4b37-bad0-04d83d8b3766
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
@@ -86,9 +85,9 @@ at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.ja
 at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
 at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
 at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:498)
-at com.mystore.actiondriver.Action.click(Action.java:692)
+at com.mystore.actiondriver.Action.click(Action.java:687)
 at com.mystore.pageobjects.FlipkartHome.searchProduct(FlipkartHome.java:56)
-at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:19)
+at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:21)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,103 +117,19 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T19:31:22 IST" name="quitDriver" finished-at="2024-08-07T19:31:23 IST" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-07T20:24:18 IST" name="quitDriver" finished-at="2024-08-07T20:24:18 IST" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-08-07T19:29:39 IST" name="MacChromeTest" finished-at="2024-08-07T19:31:31 IST" duration-ms="112186">
+    <test started-at="2024-08-07T20:22:43 IST" name="FireFoxTest" finished-at="2024-08-07T20:24:22 IST" duration-ms="98425">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T19:29:39 IST" name="loadConfig" finished-at="2024-08-07T19:29:39 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T20:22:43 IST" name="loadConfig" finished-at="2024-08-07T20:22:43 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T19:29:39 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:30:21 IST" duration-ms="41746" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ventura]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T19:30:21 IST" name="printProducts" finished-at="2024-08-07T19:31:31 IST" duration-ms="69808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T19:31:31 IST" name="quitDriver" finished-at="2024-08-07T19:31:31 IST" duration-ms="296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </test> <!-- MacChromeTest -->
-    <test started-at="2024-08-07T19:29:39 IST" name="MacEdgeTest" finished-at="2024-08-07T19:31:32 IST" duration-ms="113271">
-      <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T19:29:39 IST" name="loadConfig" finished-at="2024-08-07T19:29:39 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T19:29:39 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:30:22 IST" duration-ms="42627" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[OS X]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sonoma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[latest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T19:30:22 IST" name="printProducts" finished-at="2024-08-07T19:31:32 IST" duration-ms="70008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T19:31:32 IST" name="quitDriver" finished-at="2024-08-07T19:31:32 IST" duration-ms="301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </test> <!-- MacEdgeTest -->
-    <test started-at="2024-08-07T19:29:39 IST" name="FireFoxTest" finished-at="2024-08-07T19:31:45 IST" duration-ms="125873">
-      <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T19:29:39 IST" name="loadConfig" finished-at="2024-08-07T19:29:39 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T19:29:39 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:30:52 IST" duration-ms="72953" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T20:22:43 IST" name="launchAppBrowserStack" finished-at="2024-08-07T20:23:21 IST" duration-ms="37265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,23 +155,97 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T19:30:52 IST" name="printProducts" finished-at="2024-08-07T19:31:44 IST" duration-ms="51501" status="PASS">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T20:23:21 IST" name="printProducts" finished-at="2024-08-07T20:24:21 IST" duration-ms="59883" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e8ede3e9-489f-4c79-9031-0593588fd77d, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : F..., username: ravishrana_5vWQ7y}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:17193, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 14316, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.249:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e8ede3e9-489f-4c79-9031-0593588fd77d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [e8ede3e9-489f-4c79-9031-0593588fd77d, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.1.4, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : F..., username: ravishrana_5vWQ7y}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:17193, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 14316, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.249:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e8ede3e9-489f-4c79-9031-0593588fd77d
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy21.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:498)
+at com.mystore.actiondriver.Action.click(Action.java:687)
+at com.mystore.pageobjects.FlipkartHome.searchProduct(FlipkartHome.java:56)
+at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T19:31:44 IST" name="quitDriver" finished-at="2024-08-07T19:31:45 IST" duration-ms="1083" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T20:24:21 IST" name="quitDriver" finished-at="2024-08-07T20:24:22 IST" duration-ms="1040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </test> <!-- FireFoxTest -->
-    <test started-at="2024-08-07T19:29:39 IST" name="EdgeTest" finished-at="2024-08-07T19:31:59 IST" duration-ms="139739">
+    <test started-at="2024-08-07T20:22:43 IST" name="EdgeTest" finished-at="2024-08-07T20:24:31 IST" duration-ms="107965">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T19:29:39 IST" name="loadConfig" finished-at="2024-08-07T19:29:39 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T20:22:43 IST" name="loadConfig" finished-at="2024-08-07T20:22:43 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T19:29:39 IST" name="launchAppBrowserStack" finished-at="2024-08-07T19:30:52 IST" duration-ms="72988" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T20:22:43 IST" name="launchAppBrowserStack" finished-at="2024-08-07T20:23:21 IST" duration-ms="37794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,15 +271,99 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T19:30:52 IST" name="printProducts" finished-at="2024-08-07T19:31:58 IST" duration-ms="65949" status="PASS">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T20:23:21 IST" name="printProducts" finished-at="2024-08-07T20:24:31 IST" duration-ms="69420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T19:31:58 IST" name="quitDriver" finished-at="2024-08-07T19:31:59 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T20:24:31 IST" name="quitDriver" finished-at="2024-08-07T20:24:31 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </test> <!-- EdgeTest -->
+    <test started-at="2024-08-07T20:22:43 IST" name="MacChromeTest" finished-at="2024-08-07T20:24:34 IST" duration-ms="110881">
+      <class name="com.mystore.testcases.FlipkartHomeTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T20:22:43 IST" name="loadConfig" finished-at="2024-08-07T20:22:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T20:22:43 IST" name="launchAppBrowserStack" finished-at="2024-08-07T20:23:21 IST" duration-ms="37925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T20:23:21 IST" name="printProducts" finished-at="2024-08-07T20:24:34 IST" duration-ms="72371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@502f1f4c]" started-at="2024-08-07T20:24:34 IST" name="quitDriver" finished-at="2024-08-07T20:24:34 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
+    </test> <!-- MacChromeTest -->
+    <test started-at="2024-08-07T20:22:43 IST" name="MacEdgeTest" finished-at="2024-08-07T20:24:36 IST" duration-ms="112968">
+      <class name="com.mystore.testcases.FlipkartHomeTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T20:22:43 IST" name="loadConfig" finished-at="2024-08-07T20:22:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T20:22:43 IST" name="launchAppBrowserStack" finished-at="2024-08-07T20:23:21 IST" duration-ms="38031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sonoma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T20:23:21 IST" name="printProducts" finished-at="2024-08-07T20:24:36 IST" duration-ms="74369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T20:24:36 IST" name="quitDriver" finished-at="2024-08-07T20:24:36 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
+    </test> <!-- MacEdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

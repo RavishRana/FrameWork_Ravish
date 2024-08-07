@@ -116,11 +116,6 @@ public class Action extends BaseClass {
 
 	public void fill(WebDriver driver, WebElement searchBar, String value_To_Fill) {
 
-		if (value_To_Fill.equals("")) {
-			findElementPresence(driver, searchBar).click();
-			findElementPresence(driver, searchBar).clear();
-			return;
-		}
 		try {
 			findElementPresence(driver, searchBar).click();
 			findElementPresence(driver, searchBar).clear();
@@ -703,8 +698,14 @@ public class Action extends BaseClass {
 	}
 
 	public WebElement findElementPresence(WebDriver driver, WebElement Ele) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
-		return wait.until(ExpectedConditions.elementToBeClickable(Ele));
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
+			return wait.until(ExpectedConditions.elementToBeClickable(Ele));
+		} catch (Exception e2) {
+			driver.navigate().refresh();
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
+			return wait.until(ExpectedConditions.elementToBeClickable(Ele));
+		}
 	}
 
 	public static void fluentWait(WebDriver driver, WebElement element, int timeOut) {
