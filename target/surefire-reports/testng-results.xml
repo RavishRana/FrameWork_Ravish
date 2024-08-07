@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T18:00:30 IST" name="Suite" finished-at="2024-08-06T18:02:37 IST" duration-ms="127390">
+  <suite started-at="2024-08-07T17:38:43 IST" name="Suite" finished-at="2024-08-07T17:42:34 IST" duration-ms="230420">
     <groups>
     </groups>
-    <test started-at="2024-08-06T18:00:30 IST" name="ChromeTest" finished-at="2024-08-06T18:01:45 IST" duration-ms="75457">
+    <test started-at="2024-08-07T17:38:43 IST" name="FireFoxTest" finished-at="2024-08-07T17:40:39 IST" duration-ms="115369">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-06T18:00:30 IST" name="loadConfig" finished-at="2024-08-06T18:00:30 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@ea9b7c6]" started-at="2024-08-07T17:38:44 IST" name="loadConfig" finished-at="2024-08-07T17:38:44 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-06T18:00:30 IST" name="launchAppBrowserStack" finished-at="2024-08-06T18:01:08 IST" duration-ms="37973" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@ea9b7c6]" started-at="2024-08-07T17:38:44 IST" name="launchAppBrowserStack" finished-at="2024-08-07T17:40:01 IST" duration-ms="77598" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
             <param index="3">
@@ -37,29 +37,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-06T18:01:08 IST" name="printProducts" finished-at="2024-08-06T18:01:45 IST" duration-ms="36784" status="FAIL">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@ea9b7c6]" started-at="2024-08-07T17:40:01 IST" name="printProducts" finished-at="2024-08-07T17:40:38 IST" duration-ms="36490" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
-  (Session info: chrome=126.0.6478.61)
+              <![CDATA[Unable to locate element: //*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [294f2c23-0bd7-4682-88d0-d0583c284e32, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Chrome, username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49398}, goog:loggingPrefs: {browser: INFO}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.191:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 294f2c23-0bd7-4682-88d0-d0583c284e32]]>
+Command: [20cdca83-450d-4684-a127-b8964627f60c, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : F..., username: ravishrana_5vWQ7y}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:45452, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13396, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.37:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20cdca83-450d-4684-a127-b8964627f60c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
-  (Session info: chrome=126.0.6478.61)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [294f2c23-0bd7-4682-88d0-d0583c284e32, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Chrome, username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49398}, goog:loggingPrefs: {browser: INFO}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.191:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 294f2c23-0bd7-4682-88d0-d0583c284e32
+Command: [20cdca83-450d-4684-a127-b8964627f60c, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : F..., username: ravishrana_5vWQ7y}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:45452, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13396, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.37:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20cdca83-450d-4684-a127-b8964627f60c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -68,12 +66,12 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3C
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy21.getLocation(Unknown Source)
@@ -109,19 +107,103 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7c209437]" started-at="2024-08-06T18:01:45 IST" name="quitDriver" finished-at="2024-08-06T18:01:45 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@ea9b7c6]" started-at="2024-08-07T17:40:38 IST" name="quitDriver" finished-at="2024-08-07T17:40:39 IST" duration-ms="946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2024-08-06T18:00:30 IST" name="FireFoxTest" finished-at="2024-08-06T18:01:50 IST" duration-ms="80256">
+    </test> <!-- FireFoxTest -->
+    <test started-at="2024-08-07T17:38:43 IST" name="MacChromeTest" finished-at="2024-08-07T17:40:44 IST" duration-ms="120201">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-06T18:00:30 IST" name="loadConfig" finished-at="2024-08-06T18:00:30 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T17:38:44 IST" name="loadConfig" finished-at="2024-08-07T17:38:44 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-06T18:00:30 IST" name="launchAppBrowserStack" finished-at="2024-08-06T18:01:21 IST" duration-ms="51045" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T17:38:44 IST" name="launchAppBrowserStack" finished-at="2024-08-07T17:39:20 IST" duration-ms="36571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T17:39:20 IST" name="printProducts" finished-at="2024-08-07T17:40:43 IST" duration-ms="83006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@fd8294b]" started-at="2024-08-07T17:40:43 IST" name="quitDriver" finished-at="2024-08-07T17:40:44 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
+    </test> <!-- MacChromeTest -->
+    <test started-at="2024-08-07T17:38:43 IST" name="MacEdgeTest" finished-at="2024-08-07T17:40:48 IST" duration-ms="124173">
+      <class name="com.mystore.testcases.FlipkartHomeTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T17:38:44 IST" name="loadConfig" finished-at="2024-08-07T17:38:44 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T17:38:44 IST" name="launchAppBrowserStack" finished-at="2024-08-07T17:39:21 IST" duration-ms="37671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sonoma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T17:39:21 IST" name="printProducts" finished-at="2024-08-07T17:40:47 IST" duration-ms="85900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-07T17:40:47 IST" name="quitDriver" finished-at="2024-08-07T17:40:48 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
+    </test> <!-- MacEdgeTest -->
+    <test started-at="2024-08-07T17:38:43 IST" name="ChromeTest" finished-at="2024-08-07T17:41:45 IST" duration-ms="181352">
+      <class name="com.mystore.testcases.FlipkartHomeTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@2b5825fa]" started-at="2024-08-07T17:38:44 IST" name="loadConfig" finished-at="2024-08-07T17:38:44 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@2b5825fa]" started-at="2024-08-07T17:38:44 IST" name="launchAppBrowserStack" finished-at="2024-08-07T17:41:45 IST" duration-ms="181040" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -135,7 +217,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
             <param index="3">
@@ -144,62 +226,123 @@ at java.base/java.lang.Thread.run(Thread.java:834)
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-06T18:01:21 IST" name="printProducts" finished-at="2024-08-06T18:01:49 IST" duration-ms="27923" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Unable to locate element: //*[text()='SAMSUNG']//preceding-sibling::input
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9aef7918-a0fd-413a-9c82-ada9527db334, findElement {using=xpath, value=//*[text()='SAMSUNG']//preceding-sibling::input}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Firefox, username: ravishrana_5vWQ7y}, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:47080, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13048, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.189:4444/sess..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 9aef7918-a0fd-413a-9c82-ada9527db334]]>
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}}], desiredCapabilities=Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}, name: Parallel Test - Browser : C...}}]
+Capabilities {}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='SAMSUNG']//preceding-sibling::input
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9aef7918-a0fd-413a-9c82-ada9527db334, findElement {using=xpath, value=//*[text()='SAMSUNG']//preceding-sibling::input}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Firefox, username: ravishrana_5vWQ7y}, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:47080, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13048, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.189:4444/sess..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 9aef7918-a0fd-413a-9c82-ada9527db334
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy21.getLocation(Unknown Source)
-at com.mystore.actiondriver.Action.click(Action.java:692)
-at com.mystore.pageobjects.FlipkartHome.searchProduct(FlipkartHome.java:58)
-at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:19)
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}}], desiredCapabilities=Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}, name: Parallel Test - Browser : C...}}]
+Capabilities {}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)
+at com.mystore.basepackage.BaseClass.launchAppBrowserStack(BaseClass.java:100)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:83)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:82)
+at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:82)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:82)
+at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:82)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:108)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+... 25 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+... 56 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAppBrowserStack -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@2b5825fa]" started-at="2024-08-07T17:41:45 IST" name="quitDriver" finished-at="2024-08-07T17:41:45 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Driver instance is not closed.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Driver instance is not closed.
+at org.testng.Assert.fail(Assert.java:99)
+at com.mystore.basepackage.BaseClass.quitDriver(BaseClass.java:157)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
@@ -213,23 +356,118 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:834)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-06T18:01:49 IST" name="quitDriver" finished-at="2024-08-06T18:01:50 IST" duration-ms="1040" status="PASS">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@2b5825fa]" started-at="2024-08-07T17:41:45 IST" name="printProducts" finished-at="2024-08-07T17:41:45 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}}], desiredCapabilities=Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}, name: Parallel Test - Browser : C...}}]
+Capabilities {}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}}], desiredCapabilities=Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}, name: Parallel Test - Browser : C...}}]
+Capabilities {}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)
+at com.mystore.basepackage.BaseClass.launchAppBrowserStack(BaseClass.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:83)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:82)
+at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:82)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$6(RetryRequest.java:82)
+at net.jodah.failsafe.Functions.lambda$get$0(Functions.java:48)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.RetryPolicyExecutor.lambda$supply$0(RetryPolicyExecutor.java:66)
+at net.jodah.failsafe.Execution.executeSync(Execution.java:128)
+at net.jodah.failsafe.FailsafeExecutor.call(FailsafeExecutor.java:379)
+at net.jodah.failsafe.FailsafeExecutor.get(FailsafeExecutor.java:68)
+at org.openqa.selenium.remote.http.RetryRequest.lambda$apply$7(RetryRequest.java:82)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:108)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+... 25 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
+... 56 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printProducts -->
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </test> <!-- FireFoxTest -->
-    <test started-at="2024-08-06T18:00:30 IST" name="EdgeTest" finished-at="2024-08-06T18:02:37 IST" duration-ms="127390">
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-08-07T17:38:43 IST" name="EdgeTest" finished-at="2024-08-07T17:42:34 IST" duration-ms="230420">
       <class name="com.mystore.testcases.FlipkartHomeTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-06T18:00:30 IST" name="loadConfig" finished-at="2024-08-06T18:00:30 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T17:38:44 IST" name="loadConfig" finished-at="2024-08-07T17:38:44 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-06T18:00:30 IST" name="launchAppBrowserStack" finished-at="2024-08-06T18:01:10 IST" duration-ms="40298" status="PASS">
+        <test-method is-config="true" signature="launchAppBrowserStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T17:38:44 IST" name="launchAppBrowserStack" finished-at="2024-08-07T17:41:11 IST" duration-ms="147494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,11 +493,11 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppBrowserStack -->
-        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-06T18:01:10 IST" name="printProducts" finished-at="2024-08-06T18:02:37 IST" duration-ms="86414" status="PASS">
+        <test-method signature="printProducts()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T17:41:11 IST" name="printProducts" finished-at="2024-08-07T17:42:33 IST" duration-ms="82172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProducts -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@7b324585]" started-at="2024-08-06T18:02:37 IST" name="quitDriver" finished-at="2024-08-06T18:02:37 IST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.mystore.testcases.FlipkartHomeTest@3fffff43]" started-at="2024-08-07T17:42:33 IST" name="quitDriver" finished-at="2024-08-07T17:42:34 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

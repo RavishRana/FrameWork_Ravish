@@ -10,12 +10,13 @@
 	<name>Maven_TestNG</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
-
+	
+	<!-- Inputs paprameters -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<threads>3</threads>
+		<threads>6</threads>
 		<file>C:\Users\ravish.rana\GIT\FrameWork_Ravish\testng.xml</file>
 	</properties>
 
@@ -30,7 +31,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.4.0</version>
+			<version>4.1.4</version>
 		</dependency>
 
 		<dependency>

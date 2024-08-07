@@ -1,29 +1,31 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 128.45 s <<< FAILURE! - in TestSuite
-com.mystore.testcases.FlipkartHomeTest.printProducts  Time elapsed: 23.749 s  <<< FAILURE!
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 231.545 s <<< FAILURE! - in TestSuite
+com.mystore.testcases.FlipkartHomeTest.printProducts  Time elapsed: 36.598 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]"}
-  (Session info: chrome=126.0.6478.61)
+Unable to locate element: //*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [294f2c23-0bd7-4682-88d0-d0583c284e32, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Chrome, username: ravishrana_5vWQ7y}, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49398}, goog:loggingPrefs: {browser: INFO}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.8.191:4444/sessi..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 294f2c23-0bd7-4682-88d0-d0583c284e32
+Command: [20cdca83-450d-4684-a127-b8964627f60c, findElement {using=xpath, value=//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test - Browser : F..., username: ravishrana_5vWQ7y}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:45452, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13396, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.37:4444/sessi..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20cdca83-450d-4684-a127-b8964627f60c
 	at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:19)
 
-com.mystore.testcases.FlipkartHomeTest.printProducts  Time elapsed: 27.92 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[text()='SAMSUNG']//preceding-sibling::input
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
+com.mystore.testcases.FlipkartHomeTest.launchAppBrowserStack[Windows, 10, Chrome, latest](0)  Time elapsed: 33.543 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
 System info: host: 'IBM-RAVISHRANA', ip: '192.168.29.167', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9aef7918-a0fd-413a-9c82-ada9527db334, findElement {using=xpath, value=//*[text()='SAMSUNG']//preceding-sibling::input}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, bstack:options: {accessKey: CAxyP14U99jJLtThkKMj, browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10, sessionName: Parallel Test on : Firefox, username: ravishrana_5vWQ7y}, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:47080, moz:firefoxOptions: {args: [--headless, --window-size=1920,1080], binary: C:\Program Files\Mozilla Fi..., prefs: {network.proxy.http: , network.proxy.http_port: 0, network.proxy.socks_remote_dns: true, network.proxy.ssl: , network.proxy.ssl_port: 0, network.proxy.type: 1}}, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 10.0, moz:processID: 13048, moz:profile: C:\Users\ContainerAdministr..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(manual, socks=repeate..., se:bidiEnabled: false, se:cdp: ws://10.64.12.189:4444/sess..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 9aef7918-a0fd-413a-9c82-ada9527db334
-	at com.mystore.testcases.FlipkartHomeTest.printProducts(FlipkartHomeTest.java:19)
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}}], desiredCapabilities=Capabilities {browserName: Chrome, bstack:options: {browser_version: latest, browserstack.selenium_version: 4.4.0, consoleLogs: info, os: Windows, os_version: 10}, name: Parallel Test - Browser : C...}}]
+Capabilities {}
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to v9v7j6fv-hub.browserstack-ats.com/44.214.86.103:443 after 180000 ms
+
+com.mystore.testcases.FlipkartHomeTest.quitDriver  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Driver instance is not closed.
 

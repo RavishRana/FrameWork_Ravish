@@ -13,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -76,25 +77,30 @@ public class BaseClass {
 			bstackOptions.put("consoleLogs", "info");
 			bstackOptions.put("browserstack.selenium_version", "4.4.0");
 			capabilities.setCapability("bstack:options", bstackOptions);
-			capabilities.setCapability("name", "Parallel Test on : " + browser);
-			if (browser.equalsIgnoreCase("Chrome")) {
+			capabilities.setCapability("name", "Parallel Test - Browser : " + browser + "OS : "+ os);
+			if (browser.equalsIgnoreCase("Chrome")&& prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
 
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("--disable-gpu");
 				options.addArguments("--remote-allow-origins=*");
 				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			} else if (browser.equalsIgnoreCase("Edge")) {
+			} else if (browser.equalsIgnoreCase("Edge") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
 				EdgeOptions options = new EdgeOptions();
-				/*
-				 * options.setExperimentalOption("excludeSwitches",
-				 * List.of("disable-popup-blocking"));
-				 * options.addArguments("--remote-allow-origins=*");
-				 */
-				//capabilities.setCapability(EdgeOptions.CAPABILITY, options);
+				options.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
+				options.addArguments("--remote-allow-origins=*");
+				capabilities.setCapability(EdgeOptions.CAPABILITY, options);
+			}
+			else if (browser.equalsIgnoreCase("Firefox")) {
+				FirefoxOptions options = new FirefoxOptions();
+				options.addArguments("--remote-allow-origins=*");
+				capabilities.setCapability(EdgeOptions.CAPABILITY, options);
 			}
 			URL url = new URL("https://" + username + ":" + accessKey + "@" + browserstackURL);
 			System.out.println("URL to hit is : " + url);
 			setDriver(new RemoteWebDriver(url, capabilities));
+			if(browser.equalsIgnoreCase("Chrome") || browser.equalsIgnoreCase("Firefox")) {
+				getDriver().navigate().refresh();
+			}
 			getDriver().manage().window().maximize();
 			getDriver().manage().deleteAllCookies();
 			System.out.println(getDriver() + " BrowserStack driver has been instantiated. ");
@@ -121,6 +127,13 @@ public class BaseClass {
 				System.out.println(getDriver() + " Driver has been instantiated. ");
 			} else if (browser.contains("Edge")) {
 				WebDriverManager.edgedriver().setup();
+				setDriver(new EdgeDriver(optionsEdge));
+				getDriver().manage().deleteAllCookies();
+				getDriver().manage().window().maximize();
+				System.out.println(getDriver() + " Driver has been instantiated. ");
+			}
+			else if (browser.contains("Safari")) {
+				WebDriverManager.safaridriver().setup();
 				setDriver(new EdgeDriver(optionsEdge));
 				getDriver().manage().deleteAllCookies();
 				getDriver().manage().window().maximize();
