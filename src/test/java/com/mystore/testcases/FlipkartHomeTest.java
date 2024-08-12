@@ -8,17 +8,18 @@ import org.testng.annotations.Test;
 import com.mystore.basepackage.BaseClass;
 import com.mystore.pageobjects.FlipkartHome;
 import com.mystore.reporting.ExtentReportManager;
+import com.mystore.reporting.RetryAnalyzer;
 
 public class FlipkartHomeTest extends BaseClass {
 
 	FlipkartHome flipKartHomeObj;
 	ExtentReportManager extentReportMananger = new ExtentReportManager();
 
-	@Test
+	@Test()
 	public void printProducts() throws Throwable {
+
 		flipKartHomeObj = new FlipkartHome(getDriver());
-		System.out.println(getDriver().getWindowHandle());
-		flipKartHomeObj.searchProduct();
+		flipKartHomeObj.searchProduct("Samsung Galaxy S10 ");
 		List<WebElement> products = flipKartHomeObj.getProducts();
 
 		for (WebElement product : products) {
@@ -26,15 +27,15 @@ public class FlipkartHomeTest extends BaseClass {
 			String price = flipKartHomeObj.getProductPrice(product);
 			String link = flipKartHomeObj.getProductLink(product);
 
-			// Print product details
-
 			System.out.println("Name: " + name);
 			System.out.println("Price: " + price);
 			System.out.println("Link: " + link);
 			System.out.println("-----------------------------");
-			extentReportMananger.logInfo("Product Name : " + name + " ------------------ " + "Product Price : " + price + " ------------------ " + "Product link : " + link );
+			extentReportMananger.logInfo("Product Name : " + name + " ------------------ " + "Product Price : " + price
+					+ " ------------------ " + "Product link : " + link);
 
 		}
+
 	}
 
 }

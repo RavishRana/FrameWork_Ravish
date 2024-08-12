@@ -1,82 +1,89 @@
 package com.mystore.pageobjects;
 
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import com.mystore.actiondriver.Action;
 
-public class FlipkartHome{
+public class FlipkartHome {
 
 	WebDriver driver;
 	Action action;
 
-	@FindBy(xpath = "//input[@title='Search for Products, Brands and More']")
-	private WebElement SearchBar;
-
-	@FindBy(xpath = "//*[text()='in Mobiles']//ancestor::a[contains(@href,'samsung+galaxy+s10')]")
-	private WebElement mobiles_Results;
-
-	@FindBy(xpath = "//*[text()='SAMSUNG']//preceding-sibling::input")
-	private WebElement SelectSamsungCheckBox;
-
-	@FindBy(xpath = "//*[text()='SAMSUNG']//ancestor::section/following-sibling::section//img/../../preceding-sibling::input")
-	private WebElement FlipKartAssuredCheckBox;
-
-	@FindBy(xpath = "//*[text()='Price -- High to Low']")
-	private WebElement SortList_High_Low;
-
-	@FindBy(xpath = "//a[@class='CGtC98']")
-	private List<WebElement> AllProductList;
-
-	@FindBy(xpath = "//div[@class='KzDlHZ")
-	private WebElement ProductName;
-
-	@FindBy(xpath = "//div[@class='Nx9bqj _4b5DiR']")
-	private WebElement ProductPrice;
-
-	@FindBy(xpath = "//a[@class='CGtC98']")
-	private WebElement ProductLink;
+	String loginClose = "//span[@class='_30XB9F']";
+	String searchBar = "//input[@title='Search for Products, Brands and More']";
+	String mobilesResults = "//a[contains(@href,'/search?q=samsung+galaxy+s10+lite+mobile') or contains(@href,'/search?q=samsung+galaxy+s10+5g')]";
+	String selectSamsungCheckBox = "//*[text()='SAMSUNG']//preceding-sibling::input";
+	String flipKartAssuredCheckBox = "//*[text()='SAMSUNG']//ancestor::section/following-sibling::section//img/../../preceding-sibling::input";
+	String sortListHighLow = "//*[text()='Price -- High to Low']";
+	String allProductList = "//a[@class='CGtC98']";
+	String productName = ".//div[@class='KzDlHZ']";
+	String productPrice = ".//div[@class='Nx9bqj _4b5DiR']";
+	String productLink = "//a[@class='CGtC98']";
 
 	public FlipkartHome(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		this.action = new Action(driver);
 	}
 
-	public void searchProduct() throws Exception {
-		action = new Action();
-		action.waitFor(2000);
-		action.fill(driver,SearchBar, "Samsung Galaxy S10");
-		action.waitFor(4000);
-		action.click(driver,mobiles_Results);
-		action.waitFor(1000);
-		action.click(driver,SelectSamsungCheckBox);
-		action.waitFor(1000);
-		action.click(driver,FlipKartAssuredCheckBox);
-		action.waitFor(1000);
-		action.click(driver,SortList_High_Low);
-		action.waitFor(1000);
+	public void searchProduct(String productName) throws Exception {
+		closeLoginPopupIfNeeded();
+		searchForProduct(productName);
+		selectProductFilters();
 	}
+
+	private void closeLoginPopupIfNeeded() throws Exception {
+		if (action.isDisplayed(loginClose)) {
+			action.click(loginClose);
+		}
+	}
+
+	private void searchForProduct(String productName) throws Exception {
+		try {
+			action.fill(searchBar, productName);
+			action.click(mobilesResults);
+		} catch (Exception e) {
+			retrySearch(productName);
+		}
+	}
+
+	private void retrySearch(String productName) throws Exception {
+		closeLoginPopupIfNeeded();
+		action.fill(searchBar, productName);
+		action.click(mobilesResults);
+	}
+
+	private void selectProductFilters() throws Exception {
+		try {
+			action.click(selectSamsungCheckBox);
+			action.click(flipKartAssuredCheckBox);
+			action.click(sortListHighLow);
+		} catch (Exception e) {
+			retrySearch(productName);
+			action.click(selectSamsungCheckBox);
+			action.click(flipKartAssuredCheckBox);
+			action.click(sortListHighLow);
+		}
+
+	}
+
 	public List<WebElement> getProducts() {
-		return AllProductList;
+		return driver.findElements(By.xpath(allProductList));
 	}
 
-	public String getProductName(WebElement productEle) {
-			return productEle.findElement(By.xpath(".//div[@class='KzDlHZ']")).getText();
+	public String getProductName(WebElement productElement) {
+		return productElement.findElement(By.xpath(productName)).getText();
 	}
 
-	public String getProductPrice(WebElement productEle) {
-		return productEle.findElement(By.xpath(".//div[@class='Nx9bqj _4b5DiR']")).getText();
+	public String getProductPrice(WebElement productElement) {
+		return productElement.findElement(By.xpath(productPrice)).getText();
 	}
 
-	public String getProductLink(WebElement productEle) {
-		return productEle.getAttribute("href");
+	public String getProductLink(WebElement productElement) {
+		return productElement.getAttribute("href");
 	}
 
 }
-

@@ -14,6 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -27,10 +28,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	public static Properties prop;
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
-	/*
-	 * private static ExtentReports extent; private static ThreadLocal<ExtentTest>
-	 * test = new ThreadLocal<>();
-	 */
 
 	public void setDriver(WebDriver driverInstance) {
 		this.driver.set(driverInstance);
@@ -65,8 +62,9 @@ public class BaseClass {
 		if (prop.getProperty("BrowserStack").equalsIgnoreCase("yes")) {
 			String username = prop.getProperty("BROWSERSTACK_USERNAME");
 			String accessKey = prop.getProperty("BROWSERSTACK_ACCESS_KEY");
-			String browserstackURL = "v9v7j6fv-hub.browserstack-ats.com/wd/hub";
+			String browserstackURL = "p17l3ul2-hub.browserstack-ats.com/wd/hub";
 
+			// Capabilities
 			MutableCapabilities capabilities = new MutableCapabilities();
 			HashMap<String, Object> bstackOptions = new HashMap<String, Object>();
 			capabilities.setCapability("browserName", browser);
@@ -74,38 +72,58 @@ public class BaseClass {
 			bstackOptions.put("os_version", os_version);
 			bstackOptions.put("browser_version", browser_version);
 			bstackOptions.put("consoleLogs", "info");
-			bstackOptions.put("browserstack.selenium_version", "4.1.4");
+			bstackOptions.put("browserstack.selenium_version", "3.14.0");
+			bstackOptions.put("networkLogs", true);
+
 			capabilities.setCapability("bstack:options", bstackOptions);
 			capabilities.setCapability("name", "Parallel Test - Browser : " + browser + " OS : " + os);
-			if (browser.equalsIgnoreCase("Chrome") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
-
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--disable-gpu");
-				options.addArguments("--remote-allow-origins=*");
-				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			} else if (browser.equalsIgnoreCase("Edge") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
+			if (browser.equalsIgnoreCase("Edge") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
 				EdgeOptions options = new EdgeOptions();
 				options.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
 				options.addArguments("--remote-allow-origins=*");
 				capabilities.setCapability(EdgeOptions.CAPABILITY, options);
-			} else if (browser.equalsIgnoreCase("Firefox")) {
+			}
+			if (browser.equalsIgnoreCase("Chrome") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")
+					&& os.equalsIgnoreCase("Windows")) {
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=new");
+				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+			}
+			if (browser.equalsIgnoreCase("Firefox") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")
+					&& os.equalsIgnoreCase("Windows")) {
+
+				FirefoxProfile profile = new FirefoxProfile();
+				profile.setPreference("browser.download.folderList", 1);
+				profile.setPreference("browser.download.manager.showWhenStarting", false);
+				profile.setPreference("browser.download.manager.focusWhenStarting", false);
+				profile.setPreference("browser.download.useDownloadDir", true);
+				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
+				profile.setPreference("browser.download.manager.closeWhenDone", true);
+				profile.setPreference("browser.download.manager.showAlertOnComplete", false);
+				profile.setPreference("browser.download.manager.useWindow", false);
+				profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream");
 				FirefoxOptions options = new FirefoxOptions();
 				options.addArguments("--remote-allow-origins=*");
-				capabilities.setCapability(EdgeOptions.CAPABILITY, options);
+				options.setHeadless(true);
+				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+				options.setProfile(profile);
 			}
 			URL url = new URL("https://" + username + ":" + accessKey + "@" + browserstackURL);
 			System.out.println("URL to hit is : " + url);
 			setDriver(new RemoteWebDriver(url, capabilities));
-			getDriver().navigate().refresh();
 			getDriver().manage().window().maximize();
 			getDriver().manage().deleteAllCookies();
 			System.out.println(getDriver() + " BrowserStack driver has been instantiated. ");
 
 			Action.implicitWait(getDriver(), 10);
-			Action.pageLoadTimeOut(getDriver(), 30);
+			Action.pageLoadTimeOut(getDriver(), 60);
 			getDriver().get(prop.getProperty("url"));
 
-		} else {
+		}
+
+		// For Local Execution
+		else {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			EdgeOptions optionsEdge = new EdgeOptions();
@@ -127,18 +145,11 @@ public class BaseClass {
 				getDriver().manage().deleteAllCookies();
 				getDriver().manage().window().maximize();
 				System.out.println(getDriver() + " Driver has been instantiated. ");
-			} else if (browser.contains("Safari")) {
-				WebDriverManager.safaridriver().setup();
-				setDriver(new EdgeDriver(optionsEdge));
-				getDriver().manage().deleteAllCookies();
-				getDriver().manage().window().maximize();
-				System.out.println(getDriver() + " Driver has been instantiated. ");
 			}
 			Action.implicitWait(getDriver(), 10);
 			Action.pageLoadTimeOut(getDriver(), 30);
 			getDriver().get(prop.getProperty("url"));
 		}
-
 	}
 
 	@AfterTest(alwaysRun = true)
@@ -147,7 +158,6 @@ public class BaseClass {
 		if (getDriver() != null) {
 			System.out.println("Driver process found to close");
 			driver.quit();
-			this.driver.remove();
 		} else {
 			System.out.println("Driver instance is not closed.");
 		}

@@ -15,7 +15,7 @@ public class FlipkartHomeTest2 extends BaseClass {
 	public void printProducts() throws Throwable {
 		flipKartHomeObj = new FlipkartHome(getDriver());
 		System.out.println(getDriver().getWindowHandle());
-		flipKartHomeObj.searchProduct();
+		flipKartHomeObj.searchProduct("Samsung Galaxy S10");
 		List<WebElement> products = flipKartHomeObj.getProducts();
 
 		for (WebElement product : products) {

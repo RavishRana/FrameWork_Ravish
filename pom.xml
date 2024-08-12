@@ -10,7 +10,7 @@
 	<name>Maven_TestNG</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
-	
+
 	<!-- Inputs paprameters -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -86,11 +86,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.9</version>
-		</dependency>
 
 		<dependency>
 			<groupId>com.browserstack</groupId>
