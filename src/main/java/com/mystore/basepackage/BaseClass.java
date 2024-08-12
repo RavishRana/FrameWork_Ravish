@@ -104,7 +104,6 @@ public class BaseClass {
 				profile.setPreference("browser.download.manager.useWindow", false);
 				profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream");
 				FirefoxOptions options = new FirefoxOptions();
-				options.addArguments("--remote-allow-origins=*");
 				options.setHeadless(true);
 				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 				options.setProfile(profile);

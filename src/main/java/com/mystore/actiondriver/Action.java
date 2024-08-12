@@ -92,6 +92,7 @@ public class Action extends BaseClass {
 	public void fill(String searchBar, String value_To_Fill) {
 
 		try {
+			findElementPresence(searchBar).click();
 			findElementPresence(searchBar).clear();
 			findElementPresence(searchBar).sendKeys(value_To_Fill);
 			waitFor(4000);

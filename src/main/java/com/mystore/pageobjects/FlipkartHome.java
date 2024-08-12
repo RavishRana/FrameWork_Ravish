@@ -15,7 +15,9 @@ public class FlipkartHome {
 
 	String loginClose = "//span[@class='_30XB9F']";
 	String searchBar = "//input[@title='Search for Products, Brands and More']";
-	String mobilesResults = "//a[contains(@href,'/search?q=samsung+galaxy+s10+lite+mobile') or contains(@href,'/search?q=samsung+galaxy+s10+5g')]";
+	
+	String mobilesResults = "(//a[contains(@href,'/search?q=samsung+galaxy+s10+lite+mobile') or contains(@href,'/search?q=samsung+galaxy+s10+5g') or contains(@href,'/search?q=samsung+galaxy+s10+plus+phone')])[1]";
+	String mobilesResults2 = "//a[contains(@href,'/search?q=samsung+galaxy+s10+lite+mobile') or contains(@href,'/search?q=samsung+galaxy+s10+5g')]";
 	String selectSamsungCheckBox = "//*[text()='SAMSUNG']//preceding-sibling::input";
 	String flipKartAssuredCheckBox = "//*[text()='SAMSUNG']//ancestor::section/following-sibling::section//img/../../preceding-sibling::input";
 	String sortListHighLow = "//*[text()='Price -- High to Low']";
