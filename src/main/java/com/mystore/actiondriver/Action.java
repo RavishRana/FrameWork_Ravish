@@ -659,12 +659,12 @@ public class Action extends BaseClass {
 	}
 
 	public void click(String Element) {
-		waitFor(2000);
+		waitFor(3000);
 		WebElement ele = driver.findElement(By.xpath(Element));
 		try {
 			//ele.click();
 			((JavascriptExecutor) driver).executeScript("arguments[0].click();", ele);
-			waitFor(3000);
+			waitFor(4000);
 		} catch (Exception e) {
 			try {
 				System.out.println("First try in catch");

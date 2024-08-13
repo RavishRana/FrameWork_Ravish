@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="495.369" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="118.224" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\ravish.rana\AppData\Local\Temp\surefire690950850193848877\surefirebooter10969295338960321197.jar C:\Users\ravish.rana\AppData\Local\Temp\surefire690950850193848877 2024-08-13T00-59-47_709-jvmRun1 surefire11597675417240495828tmp surefire_07964996252399628628tmp"/>
+    <property name="sun.java.command" value="C:\Users\ravish.rana\AppData\Local\Temp\surefire17355764919037567852\surefirebooter9357628000777256941.jar C:\Users\ravish.rana\AppData\Local\Temp\surefire17355764919037567852 2024-08-13T11-52-44_125-jvmRun1 surefire2692817786611235724tmp surefire_09349037336764217427tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ravish.rana\GIT\FrameWork_Ravish\target\test-classes;C:\Users\ravish.rana\GIT\FrameWork_Ravish\target\classes;C:\Users\ravish.rana\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ravish.rana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\ravish.rana\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\ravish.rana\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\ravish.rana\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ravish.rana\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ravish.rana\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ravish.rana\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ravish.rana\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ravish.rana\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ravish.rana\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\ravish.rana\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\ravish.rana\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\ravish.rana\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\ravish.rana\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ravish.rana\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\ravish.rana\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\ravish.rana\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\ravish.rana\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\ravish.rana\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\ravish.rana\.m2\repository\org\apache\poi\poi-ooxml\5.2.1\poi-ooxml-5.2.1.jar;C:\Users\ravish.rana\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.1\poi-ooxml-lite-5.2.1.jar;C:\Users\ravish.rana\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\ravish.rana\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\ravish.rana\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\ravish.rana\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\ravish.rana\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ravish.rana\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\ravish.rana\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\ravish.rana\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\ravish.rana\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\ravish.rana\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\ravish.rana\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\ravish.rana\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ravish.rana\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\ravish.rana\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ravish.rana\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\ravish.rana\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\ravish.rana\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\ravish.rana\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ravish.rana\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ravish.rana\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ravish.rana\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ravish.rana\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ravish.rana\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ravish.rana\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ravish.rana\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\ravish.rana\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\ravish.rana\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ravish.rana\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ravish.rana\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ravish.rana\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ravish.rana\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ravish.rana\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ravish.rana\.m2\repository\com\github\2gis\winium\winium-webdriver\0.1.0-1\winium-webdriver-0.1.0-1.jar;C:\Users\ravish.rana\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ravish.rana\.m2\repository\org\apache\poi\poi\5.1.0\poi-5.1.0.jar;C:\Users\ravish.rana\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ravish.rana\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ravish.rana\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ravish.rana\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\ravish.rana\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ravish.rana\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\ravish.rana\.m2\repository\com\browserstack\browserstack-java-sdk\1.21.0\browserstack-java-sdk-1.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ravish.rana\AppData\Local\Temp\surefire690950850193848877\surefirebooter10969295338960321197.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ravish.rana\AppData\Local\Temp\surefire17355764919037567852\surefirebooter9357628000777256941.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -55,34 +55,19 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ravish.rana/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/ravish.rana/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ravish.rana\Downloads\platform-tools_r31.0.2-windows\platform-tools;C:\Softwares\apache-ant-1.10.11\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Git\cmd;C:\Users\ravish.rana\Documents\DeliveryHero\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\ProgramData\chocolatey\bin;C:\Users\ravish.rana\AppData\Local\Android\Sdk;C:\Users\ravish.rana\AppData\Local\Android\Sdk\platform-tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\build-tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\platforms;C:\Program Files\nodejs\;C:\Program Files\sfdx\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ravish.rana\Documents\DeliveryHero\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\ravish.rana\AppData\Local\Microsoft\WindowsApps;C:\Users\ravish.rana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ravish.rana\AppData\Local\Android\Sdk;C:\Users\ravish.rana\AppData\Roaming\npm;C:\Program Files\Java\jdk-11\bin;C:\Program Files\sfdx\bin;C:\WINDOWS\System32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ravish.rana/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/ravish.rana/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ravish.rana\Downloads\platform-tools_r31.0.2-windows\platform-tools;C:\Softwares\apache-ant-1.10.11\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Git\cmd;C:\Softwares\apache-maven-3.9.8\bin;C:\ProgramData\chocolatey\bin;C:\Users\ravish.rana\AppData\Local\Android\Sdk;C:\Users\ravish.rana\AppData\Local\Android\Sdk\platform-tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\build-tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\tools;C:\Users\ravish.rana\AppData\Local\Android\Sdk\platforms;C:\Program Files\nodejs\;C:\Program Files\sfdx\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Softwares\apache-maven-3.9.8\bin;C:\Users\ravish.rana\AppData\Local\Microsoft\WindowsApps;C:\Users\ravish.rana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ravish.rana\AppData\Local\Android\Sdk;C:\Users\ravish.rana\AppData\Roaming\npm;C:\Program Files\Java\jdk-11\bin;C:\Program Files\sfdx\bin;C:\WINDOWS\system32;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="67.706">
-    <system-out><![CDATA[Super constructor invoked
-Super constructor invoked
-Super constructor invoked
-Super constructor invoked
-Super constructor invoked
-Initial State of Driver= java.lang.ThreadLocal@444ca122
-Initial State of Driver= java.lang.ThreadLocal@444ca122
-Initial State of Driver= java.lang.ThreadLocal@444ca122
-Initial State of Driver= java.lang.ThreadLocal@444ca122
-Initial State of Driver= java.lang.ThreadLocal@444ca122
-URL to hit is : https://yagew_5TlPjq:Zxchu7hK1JsvvgV7ioK8@p17l3ul2-hub.browserstack-ats.com/wd/hub
-URL to hit is : https://yagew_5TlPjq:Zxchu7hK1JsvvgV7ioK8@p17l3ul2-hub.browserstack-ats.com/wd/hub
-URL to hit is : https://yagew_5TlPjq:Zxchu7hK1JsvvgV7ioK8@p17l3ul2-hub.browserstack-ats.com/wd/hub
-URL to hit is : https://yagew_5TlPjq:Zxchu7hK1JsvvgV7ioK8@p17l3ul2-hub.browserstack-ats.com/wd/hub
-URL to hit is : https://yagew_5TlPjq:Zxchu7hK1JsvvgV7ioK8@p17l3ul2-hub.browserstack-ats.com/wd/hub
-RemoteWebDriver: MicrosoftEdge on WINDOWS (421193ca-0c93-44d5-98d5-8895472efb53) BrowserStack driver has been instantiated. 
-RemoteWebDriver: chrome on WINDOWS (b87eea7a-427c-4743-aa26-c2ee74f9834c) BrowserStack driver has been instantiated. 
-RemoteWebDriver: MicrosoftEdge on LINUX (558967a8-2aba-4b95-88f8-4b31e9a0d46d) BrowserStack driver has been instantiated. 
-RemoteWebDriver: chrome on LINUX (a657099c-4ea0-4b91-baef-3765abb80c44) BrowserStack driver has been instantiated. 
-RemoteWebDriver: firefox on WINDOWS (0a809cee-af1a-4d81-b71a-4244b97666d6) BrowserStack driver has been instantiated. 
+  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="65.162">
+    <system-out><![CDATA[Configuration loaded successfully.
+Configuration loaded successfully.
+Configuration loaded successfully.
+Configuration loaded successfully.
+Configuration loaded successfully.
 Unable to locate element at
 Not displayed 
 Unable to locate element at
@@ -93,314 +78,481 @@ Unable to locate element at
 Not displayed 
 Unable to locate element at
 Not displayed 
-Element not found. Attempt 1 out of 10. Refreshing the page...
-Element not found. Attempt 1 out of 10. Refreshing the page...
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
-Price: ₹1,34,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
 Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)
 Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
-Price: ₹1,34,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 512 GB)
 Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-512-gb/p/itmfde5d3afe6bda?pid=MOBGX2F32TYCRKMF&lid=LSTMOBGX2F32TYCRKMFISVUMP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F32TYCRKMF.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
-Price: ₹1,29,999
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-512-gb/p/itmfde5d3afe6bda?pid=MOBGX2F32TYCRKMF&lid=LSTMOBGX2F32TYCRKMFISVUMP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F32TYCRKMF.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
 Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Element not found. Attempt 2 out of 10. Refreshing the page...
 Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
 Price: ₹1,34,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
 Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
-Price: ₹94,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
 Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
-Price: ₹94,000
-Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Element not found. Attempt 2 out of 10. Refreshing the page...
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB)
 Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
-Price: ₹94,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
+Price: ₹1,34,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-512-gb/p/itmfde5d3afe6bda?pid=MOBGX2F32TYCRKMF&lid=LSTMOBGX2F32TYCRKMFISVUMP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F32TYCRKMF.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
 Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
-Price: ₹94,000
-Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
+Price: ₹1,34,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
 Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
-Price: ₹69,999
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
-Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
+Price: ₹1,34,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-512-gb/p/itmfde5d3afe6bda?pid=MOBGX2F32TYCRKMF&lid=LSTMOBGX2F32TYCRKMFISVUMP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F32TYCRKMF.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
 Price: ₹94,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
+Price: ₹1,39,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
 Price: ₹94,000
-Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
-Price: ₹69,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
+Price: ₹1,34,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB)
+Price: ₹89,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB)
 Price: ₹89,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
+Price: ₹94,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
+Price: ₹94,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
 Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
+Price: ₹94,000
+Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
+Price: ₹94,000
+Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
+Price: ₹1,29,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
+Price: ₹94,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
+Price: ₹94,000
+Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
+Price: ₹1,04,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
 Price: ₹69,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 5G (Green, 128 GB)
-Price: ₹44,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB)
+Price: ₹89,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
+Price: ₹94,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
+Price: ₹69,999
+Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
 Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB)
-Price: ₹39,999
-Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB)
+Price: ₹89,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 5G (Green, 128 GB)
-Price: ₹44,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
+Price: ₹69,999
+Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
+Price: ₹94,000
+Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
 Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 FE (Mint, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Ultra 5G (Green, 256 GB)
+Price: ₹89,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-green-256-gb/p/itm77dc35f7779a4?pid=MOBGMFFX32WUYXUJ&lid=LSTMOBGMFFX32WUYXUJEUVNIW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFX32WUYXUJ.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
 Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB)
-Price: ₹39,999
-Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 FE (Graphite, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB)
+Price: ₹89,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
 Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 FE (Purple, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-purple-256-gb/p/itm8f6a49271bf21?pid=MOBGVTA2VGHCJFGG&lid=LSTMOBGVTA2VGHCJFGG1TC2LI&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGVTA2VGHCJFGG.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 FE (Purple, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-purple-256-gb/p/itm8f6a49271bf21?pid=MOBGVTA2VGHCJFGG&lid=LSTMOBGVTA2VGHCJFGG1TC2LI&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=3bd7a06a-db1d-47e6-ae62-edb3e060c56f.MOBGVTA2VGHCJFGG.SEARCH&ppt=sp&ppn=sp&ssid=n0hr5piyxc0000001723491049722&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
+Price: ₹69,999
+Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 5G (Lavender, 256 GB)
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-lavender-256-gb/p/itmfbae75e3840e1?pid=MOBGMFFXDQTGNWVK&lid=LSTMOBGMFFXDQTGNWVKWE3VH0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFXDQTGNWVK.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
+Price: ₹77,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB)
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2b602452-fd68-4ca3-b2aa-ef219d5574e8.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=exb6gid7xc9c9e681723530217562&qH=e22c38f70521c6af
 -----------------------------
 ]]></system-out>
-    <system-err><![CDATA[Aug 13, 2024 12:59:49 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+    <system-err><![CDATA[Aug 13, 2024 11:52:45 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 13, 2024 1:00:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 13, 2024 11:53:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 13, 2024 1:00:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 13, 2024 11:53:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 13, 2024 1:00:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 13, 2024 11:53:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 13, 2024 1:00:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 13, 2024 11:53:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 13, 2024 1:00:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 13, 2024 11:53:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="71.159">
-    <system-out><![CDATA[Driver process found to close
-Name: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="72.345">
+    <system-out><![CDATA[Name: SAMSUNG Galaxy S23 5G (Green, 128 GB)
+Price: ₹46,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 5G (Green, 128 GB)
+Price: ₹46,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Driver process terminated successfully.
+Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
+Price: ₹69,999
+Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 FE (Purple, 256 GB)
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-purple-256-gb/p/itm8f6a49271bf21?pid=MOBGVTA2VGHCJFGG&lid=LSTMOBGVTA2VGHCJFGG1TC2LI&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGVTA2VGHCJFGG.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 FE (Purple, 256 GB)
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-purple-256-gb/p/itm8f6a49271bf21?pid=MOBGVTA2VGHCJFGG&lid=LSTMOBGVTA2VGHCJFGG1TC2LI&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGVTA2VGHCJFGG.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S23 FE (Mint, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 FE (Mint, 256 GB)
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S23 FE (Graphite, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
-Element not found. Attempt 3 out of 10. Refreshing the page...
+Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
+Price: ₹62,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 FE (Graphite, 256 GB)
+Price: ₹41,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB)
+Price: ₹39,999
+Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
+-----------------------------
 Name: SAMSUNG Galaxy S23 5G (Lavender, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-lavender-256-gb/p/itmfbae75e3840e1?pid=MOBGMFFXDQTGNWVK&lid=LSTMOBGMFFXDQTGNWVKWE3VH0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFXDQTGNWVK.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-lavender-256-gb/p/itmfbae75e3840e1?pid=MOBGMFFXDQTGNWVK&lid=LSTMOBGMFFXDQTGNWVKWE3VH0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFXDQTGNWVK.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S22 5G (Green, 128 GB)
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
+Price: ₹67,999
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB)
+Price: ₹39,999
+Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
+-----------------------------
+Name: SAMSUNG Galaxy S23 FE (Mint, 128 GB)
 Price: ₹36,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-5g-green-128-gb/p/itm92c75094f3b93?pid=MOBGGG2YKYPWPCNP&lid=LSTMOBGGG2YKYPWPCNPJQJIS6&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=92b98641-0fb8-4b2a-aba4-603a11bbb6a5.MOBGGG2YKYPWPCNP.SEARCH&ppt=sp&ppn=sp&ssid=0vtqxij4gg0000001723491053701&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-128-gb/p/itmfde87b854d383?pid=MOBGVTA2GRVRXVFR&lid=LSTMOBGVTA2GRVRXVFRPT6FPX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=f6190a91-201e-4101-b20c-66ce43562fab.MOBGVTA2GRVRXVFR.SEARCH&ppt=sp&ppn=sp&ssid=ssqvmxtufk0000001723530222103&qH=e22c38f70521c6af
 -----------------------------
 ]]></system-out>
     <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
@@ -408,226 +560,39 @@ log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
 ]]></system-err>
   </testcase>
-  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="72.422">
-    <system-out><![CDATA[Driver process found to close
-Name: SAMSUNG Galaxy S23 5G (Green, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-256-gb/p/itm6840743bfd1ef?pid=MOBGMFFXB7RGPNET&lid=LSTMOBGMFFXB7RGPNETJZGNDL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=7209b1f1-6515-4df2-9b96-42003a74257a.MOBGMFFXB7RGPNET.SEARCH&ppt=sp&ppn=sp&ssid=9prtq4rkvk0000001723491054596&qH=e22c38f70521c6af
+  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="72.534">
+    <system-out><![CDATA[Name: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB)
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=68b588f1-de4a-4830-b192-99d70dc8b1cd.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=ws5fyljhs00000001723530222316&qH=e22c38f70521c6af
 -----------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="160.466">
-    <system-out><![CDATA[Driver process found to close
-Element not found. Attempt 3 out of 10. Refreshing the page...
-Element not found. Attempt 4 out of 10. Refreshing the page...
-Element not found. Attempt 4 out of 10. Refreshing the page...
-Element not found. Attempt 5 out of 10. Refreshing the page...
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
-Price: ₹1,34,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-256-gb/p/itm7d3b6b5d0f501?pid=MOBGX2F3QGZYYZAK&lid=LSTMOBGX2F3QGZYYZAKNETZ3C&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3QGZYYZAK.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
-Price: ₹94,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
-Price: ₹94,000
-Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itm0d5ed926087c7?pid=MOBGX2F3V52SBYMZ&lid=LSTMOBGX2F3V52SBYMZKEWTB0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3V52SBYMZ.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
-Price: ₹69,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Element not found. Attempt 6 out of 10. Refreshing the page...
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
+  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="72.768">
+    <system-out><![CDATA[Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
 Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB)
-Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X9WSTBPZ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 5G (Green, 128 GB)
-Price: ₹44,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-128-gb/p/itm7cdd081996dc8?pid=MOBGNPGYWGZAUZGK&lid=LSTMOBGNPGYWGZAUZGKLQSOT0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGNPGYWGZAUZGK.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S21 FE 5G (Lavender, 128 GB)
-Price: ₹39,999
-Link: https://www.flipkart.com/samsung-galaxy-s21-fe-5g-lavender-128-gb/p/itm3b094762fb621?pid=MOBGBNBDZJ5Q3RXK&lid=LSTMOBGBNBDZJ5Q3RXKUCNNBS&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGBNBDZJ5Q3RXK.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 FE (Purple, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-purple-256-gb/p/itm8f6a49271bf21?pid=MOBGVTA2VGHCJFGG&lid=LSTMOBGVTA2VGHCJFGG1TC2LI&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGVTA2VGHCJFGG.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 FE (Mint, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-256-gb/p/itmdb72279972171?pid=MOBGVTA2R8ZH4G3C&lid=LSTMOBGVTA2R8ZH4G3C8XDOZH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGVTA2R8ZH4G3C.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 FE (Graphite, 256 GB)
-Price: ₹38,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-fe-graphite-256-gb/p/itm3dd39c0d1ec9c?pid=MOBGVTA2GWPSR57X&lid=LSTMOBGVTA2GWPSR57XIIBGXC&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGVTA2GWPSR57X.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S22 5G (Phantom Black, 128 GB)
+Name: SAMSUNG Galaxy S23 FE (Mint, 128 GB)
 Price: ₹36,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-5g-phantom-black-128-gb/p/itmfe5b23fcf67ec?pid=MOBGGG2YNYPZZN33&lid=LSTMOBGGG2YNYPZZN33QYL1EE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=d716c1e7-a2a0-45cc-9736-d1b3bade84d8.MOBGGG2YNYPZZN33.SEARCH&ppt=sp&ppn=sp&ssid=y731ry3c3k0000001723491144358&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s23-fe-mint-128-gb/p/itmfde87b854d383?pid=MOBGVTA2GRVRXVFR&lid=LSTMOBGVTA2GRVRXVFRPT6FPX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=2f5cd692-bef3-48ab-9147-e9de4c8b235b.MOBGVTA2GRVRXVFR.SEARCH&ppt=sp&ppn=sp&ssid=hfridhp0mo0000001723530223392&qH=e22c38f70521c6af
 -----------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="448.027">
-    <system-out><![CDATA[Driver process found to close
-Element not found. Attempt 7 out of 10. Refreshing the page...
-Element not found. Attempt 8 out of 10. Refreshing the page...
-Element not found. Attempt 9 out of 10. Refreshing the page...
-Unable to locate element at
-Not displayed 
-Element not found. Attempt 1 out of 10. Refreshing the page...
-Element not found. Attempt 2 out of 10. Refreshing the page...
-Element not found. Attempt 3 out of 10. Refreshing the page...
-Element not found. Attempt 4 out of 10. Refreshing the page...
-Element not found. Attempt 5 out of 10. Refreshing the page...
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Black, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-black-512-gb/p/itmfde5d3afe6bda?pid=MOBGX2F32TYCRKMF&lid=LSTMOBGX2F32TYCRKMFISVUMP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F32TYCRKMF.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-512-gb/p/itmb65a445764f10?pid=MOBGX2F3PHGQHXSB&lid=LSTMOBGX2F3PHGQHXSBOO4CVF&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3PHGQHXSB.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 512 GB)
-Price: ₹1,39,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-512-gb/p/itm463827d6eb2be?pid=MOBGX2F3XNW3HK8K&lid=LSTMOBGX2F3XNW3HK8KCQXMCT&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_3&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3XNW3HK8K.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 512 GB)
-Price: ₹1,34,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-512-gb/p/itm1db5d333d4ee1?pid=MOBGMFFXEHJGRUXK&lid=LSTMOBGMFFXEHJGRUXKYBVAQY&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFXEHJGRUXK.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Violet, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-violet-256-gb/p/itmd4f51262e3e6b?pid=MOBGX2F38JBJGZSE&lid=LSTMOBGX2F38JBJGZSELMVCH5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F38JBJGZSE.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Yellow, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-yellow-256-gb/p/itmeda50bc408d7d?pid=MOBHFRB2F96W6YYS&lid=LSTMOBHFRB2F96W6YYSRNYU8G&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_6&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBHFRB2F96W6YYS.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)
-Price: ₹1,29,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-ultra-5g-titanium-gray-256-gb/p/itm12ef5ea0212ed?pid=MOBGX2F3RQKKKTAW&lid=LSTMOBGX2F3RQKKKTAWKAVWET&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3RQKKKTAW.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Onyx Black, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itme2d93d42550ad?pid=MOBGX2F3YAZ6MRCQ&lid=LSTMOBGX2F3YAZ6MRCQFU5NRH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3YAZ6MRCQ.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 512 GB)
-Price: ₹1,04,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?pid=MOBGX2F3SN4R8GHF&lid=LSTMOBGX2F3SN4R8GHFUVLXKX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_9&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3SN4R8GHF.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24+ 5G (Cobalt Violet, 256 GB)
-Price: ₹94,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itm46fc37ddc7255?pid=MOBGX2F3GDX7QYFT&lid=LSTMOBGX2F3GDX7QYFTDDMJ7Z&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3GDX7QYFT.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Plus 5G (Cream, 512 GB)
-Price: ₹94,000
-Link: https://www.flipkart.com/samsung-galaxy-s23-plus-5g-cream-512-gb/p/itm1f3bef850ef01?pid=MOBGMFFXHKGEXXGZ&lid=LSTMOBGMFFXHKGEXXGZCN8Z4O&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFXHKGEXXGZ.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 Ultra 5G (Cream, 256 GB)
-Price: ₹89,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-ultra-5g-cream-256-gb/p/itm322ed1a040dec?pid=MOBGMFFX44FGHNHV&lid=LSTMOBGMFFX44FGHNHVKDIBNL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_12&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFX44FGHNHV.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-512-gb/p/itm210a5a47ed251?pid=MOBGX2F3FEUH6PKS&lid=LSTMOBGX2F3FEUH6PKSNYKMCU&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_13&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3FEUH6PKS.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 512 GB)
-Price: ₹77,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-512-gb/p/itm6225fa9b0990b?pid=MOBGX2F3VFMYCHCX&lid=LSTMOBGX2F3VFMYCHCXJQ83UW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_14&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3VFMYCHCX.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Marble Gray, 128 GB)
-Price: ₹70,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-marble-gray-128-gb/p/itmd5309d6e0a151?pid=MOBHYJ6QZP2UA4X9&lid=LSTMOBHYJ6QZP2UA4X90LSJBH&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBHYJ6QZP2UA4X9.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S22 Plus 5G (Green, 128 GB)
-Price: ₹69,999
-Link: https://www.flipkart.com/samsung-galaxy-s22-plus-5g-green-128-gb/p/itmd68f588073a63?pid=MOBGGG2YKQNZPTGN&lid=LSTMOBGGG2YKQNZPTGNSNJKLX&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_16&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGGG2YKQNZPTGN.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Onyx Black, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-onyx-black-256-gb/p/itm0456c01739016?pid=MOBGX2F3ZUBMWBGP&lid=LSTMOBGX2F3ZUBMWBGPME7BYW&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_17&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3ZUBMWBGP.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-256-gb/p/itme4c78903b0c9f?pid=MOBGX2F3GNSJZ23R&lid=LSTMOBGX2F3GNSJZ23REJ6ZQ8&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_18&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3GNSJZ23R.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 256 GB)
-Price: ₹67,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?pid=MOBGX2F3TYAVSQJC&lid=LSTMOBGX2F3TYAVSQJCZEHPSQ&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_19&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGX2F3TYAVSQJC.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)
+  <testcase name="printProducts" classname="com.mystore.testcases.FlipkartHomeTest" time="77.028">
+    <system-out><![CDATA[Driver process terminated successfully.
+Driver process terminated successfully.
+Driver process terminated successfully.
+Name: SAMSUNG Galaxy S24 5G (Cobalt Violet, 128 GB)
 Price: ₹62,999
-Link: https://www.flipkart.com/samsung-galaxy-s24-5g-amber-yellow-128-gb/p/itmc7715e16403d1?pid=MOBHYJ6QMSGJG28G&lid=LSTMOBHYJ6QMSGJG28GKEE5UE&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBHYJ6QMSGJG28G.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 5G (Lavender, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-lavender-256-gb/p/itmfbae75e3840e1?pid=MOBGMFFXDQTGNWVK&lid=LSTMOBGMFFXDQTGNWVKWE3VH0&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_21&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFXDQTGNWVK.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
------------------------------
-Name: SAMSUNG Galaxy S23 5G (Green, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-256-gb/p/itm6840743bfd1ef?pid=MOBGMFFXB7RGPNET&lid=LSTMOBGMFFXB7RGPNETJZGNDL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFXB7RGPNET.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
+Link: https://www.flipkart.com/samsung-galaxy-s24-5g-cobalt-violet-128-gb/p/itma2ec54ed01030?pid=MOBHYJ6Q3ZAFJTF7&lid=LSTMOBHYJ6Q3ZAFJTF7GUPLRR&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_22&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBHYJ6Q3ZAFJTF7.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
 Name: SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB)
-Price: ₹49,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC&lid=LSTMOBGMFFXPNSHBGRCPG5BZP&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFXPNSHBGRC.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
-Name: SAMSUNG Galaxy S23 5G (Cream, 128 GB)
-Price: ₹44,999
-Link: https://www.flipkart.com/samsung-galaxy-s23-5g-cream-128-gb/p/itmc77ff94cdf044?pid=MOBGMFFX5XYE8MZN&lid=LSTMOBGMFFX5XYE8MZNRGKCA5&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=e183c3c8-2e43-4aa4-b744-885d8ab28c64.MOBGMFFX5XYE8MZN.SEARCH&ppt=sp&ppn=sp&ssid=fk68g94kb56svkzk1723491434522&qH=e22c38f70521c6af
+Name: SAMSUNG Galaxy S23 5G (Green, 256 GB)
+Price: ₹51,999
+Link: https://www.flipkart.com/samsung-galaxy-s23-5g-green-256-gb/p/itm6840743bfd1ef?pid=MOBGMFFXB7RGPNET&lid=LSTMOBGMFFXB7RGPNETJZGNDL&marketplace=FLIPKART&q=samsung+galaxy+s10+plus+phone&store=tyy%2F4io&srno=s_1_24&otracker=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_19_na_na_na&fm=search-autosuggest&iid=8efb0e46-d83a-4a6f-b6df-33d45b60f0f5.MOBGMFFXB7RGPNET.SEARCH&ppt=sp&ppn=sp&ssid=e5jbjuvwy80000001723530225307&qH=e22c38f70521c6af
 -----------------------------
 ]]></system-out>
   </testcase>

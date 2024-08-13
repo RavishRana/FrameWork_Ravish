@@ -31,6 +31,7 @@ public class FlipkartHomeTest extends BaseClass {
 			System.out.println("Price: " + price);
 			System.out.println("Link: " + link);
 			System.out.println("-----------------------------");
+			
 			extentReportMananger.logInfo("Product Name : " + name + " ------------------ " + "Product Price : " + price
 					+ " ------------------ " + "Product link : " + link);
 

@@ -26,139 +26,135 @@ import com.mystore.actiondriver.Action;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-	public static Properties prop;
-	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    private static Properties prop;
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-	public void setDriver(WebDriver driverInstance) {
-		this.driver.set(driverInstance);
-	}
+    public void setDriver(WebDriver driverInstance) {
+        driver.set(driverInstance);
+    }
 
-	public WebDriver getDriver() {
-		return this.driver.get();
-	}
+    public WebDriver getDriver() {
+        return driver.get();
+    }
 
-	@BeforeTest
-	public void loadConfig() {
+    @BeforeTest
+    public void loadConfig() {
+        prop = new Properties();
+        try (FileInputStream ip = new FileInputStream(
+                System.getProperty("user.dir") + "\\Configuration\\config.properties")) {
+            prop.load(ip);
+            System.out.println("Configuration loaded successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-		prop = new Properties();
-		System.out.println("Super constructor invoked");
-		try {
-			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "\\Configuration\\config.properties");
-			prop.load(ip);
-			System.out.println("Initial State of Driver= " + driver);
+    @BeforeClass
+    @Parameters({ "os", "os_version", "browser", "browser_version" })
+    public void launchAppBrowserStack(String os, String os_version, String browser, String browser_version)
+            throws Exception {
+        if (isBrowserStackEnabled()) {
+            launchBrowserStack(os, os_version, browser, browser_version);
+        } else {
+            launchLocalBrowser(browser, os);
+        }
+    }
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    private boolean isBrowserStackEnabled() {
+        return prop.getProperty("BrowserStack").equalsIgnoreCase("yes");
+    }
 
-	}
+    private void launchBrowserStack(String os, String os_version, String browser, String browser_version)
+            throws Exception {
+        String username = prop.getProperty("BROWSERSTACK_USERNAME");
+        String accessKey = prop.getProperty("BROWSERSTACK_ACCESS_KEY");
+        String browserstackURL = "c5u1kh5g-hub.browserstack-ats.com/wd/hub";
 
-	@BeforeClass
-	@Parameters({ "os", "os_version", "browser", "browser_version" })
-	public void launchAppBrowserStack(String os, String os_version, String browser, String browser_version)
-			throws Exception {
-		if (prop.getProperty("BrowserStack").equalsIgnoreCase("yes")) {
-			String username = prop.getProperty("BROWSERSTACK_USERNAME");
-			String accessKey = prop.getProperty("BROWSERSTACK_ACCESS_KEY");
-			String browserstackURL = "p17l3ul2-hub.browserstack-ats.com/wd/hub";
+        MutableCapabilities capabilities = new MutableCapabilities();
+        HashMap<String, Object> bstackOptions = new HashMap<>();
+        bstackOptions.put("os", os);
+        bstackOptions.put("os_version", os_version);
+        bstackOptions.put("browser_version", browser_version);
+        bstackOptions.put("consoleLogs", "info");
+        bstackOptions.put("browserstack.selenium_version", "3.14.0");
+        bstackOptions.put("networkLogs", true);
+        capabilities.setCapability("bstack:options", bstackOptions);
+        capabilities.setCapability("browserName", browser);
+        capabilities.setCapability("name", "Parallel Test - Browser : " + browser + " OS : " + os);
 
-			// Capabilities
-			MutableCapabilities capabilities = new MutableCapabilities();
-			HashMap<String, Object> bstackOptions = new HashMap<String, Object>();
-			capabilities.setCapability("browserName", browser);
-			bstackOptions.put("os", os);
-			bstackOptions.put("os_version", os_version);
-			bstackOptions.put("browser_version", browser_version);
-			bstackOptions.put("consoleLogs", "info");
-			bstackOptions.put("browserstack.selenium_version", "3.14.0");
-			bstackOptions.put("networkLogs", true);
+        setDriver(new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@" + browserstackURL), capabilities));
+        setupBrowser();
+    }
 
-			capabilities.setCapability("bstack:options", bstackOptions);
-			capabilities.setCapability("name", "Parallel Test - Browser : " + browser + " OS : " + os);
-			if (browser.equalsIgnoreCase("Edge") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")) {
-				EdgeOptions options = new EdgeOptions();
-				options.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
-				options.addArguments("--remote-allow-origins=*");
-				capabilities.setCapability(EdgeOptions.CAPABILITY, options);
-			}
-			if (browser.equalsIgnoreCase("Chrome") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")
-					&& os.equalsIgnoreCase("Windows")) {
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless=new");
-				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			}
-			if (browser.equalsIgnoreCase("Firefox") && prop.getProperty("BrowserStack").equalsIgnoreCase("no")
-					&& os.equalsIgnoreCase("Windows")) {
+    private void launchLocalBrowser(String browser, String os) {
+        WebDriver localDriver = null;
 
-				FirefoxProfile profile = new FirefoxProfile();
-				profile.setPreference("browser.download.folderList", 1);
-				profile.setPreference("browser.download.manager.showWhenStarting", false);
-				profile.setPreference("browser.download.manager.focusWhenStarting", false);
-				profile.setPreference("browser.download.useDownloadDir", true);
-				profile.setPreference("browser.helperApps.alwaysAsk.force", false);
-				profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
-				profile.setPreference("browser.download.manager.closeWhenDone", true);
-				profile.setPreference("browser.download.manager.showAlertOnComplete", false);
-				profile.setPreference("browser.download.manager.useWindow", false);
-				profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream");
-				FirefoxOptions options = new FirefoxOptions();
-				options.setHeadless(true);
-				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-				options.setProfile(profile);
-			}
-			URL url = new URL("https://" + username + ":" + accessKey + "@" + browserstackURL);
-			System.out.println("URL to hit is : " + url);
-			setDriver(new RemoteWebDriver(url, capabilities));
-			getDriver().manage().window().maximize();
-			getDriver().manage().deleteAllCookies();
-			System.out.println(getDriver() + " BrowserStack driver has been instantiated. ");
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                localDriver = new ChromeDriver(getChromeOptions());
+                break;
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                localDriver = new FirefoxDriver(getFirefoxOptions(os));
+                break;
+            case "edge":
+                WebDriverManager.edgedriver().setup();
+                localDriver = new EdgeDriver(getEdgeOptions());
+                break;
+            default:
+                throw new IllegalArgumentException("Unsupported browser: " + browser);
+        }
 
-			Action.implicitWait(getDriver(), 10);
-			Action.pageLoadTimeOut(getDriver(), 60);
-			getDriver().get(prop.getProperty("url"));
+        setDriver(localDriver);
+        setupBrowser();
+    }
 
-		}
+    private ChromeOptions getChromeOptions() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        return options;
+    }
 
-		// For Local Execution
-		else {
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			EdgeOptions optionsEdge = new EdgeOptions();
-			optionsEdge.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
-			optionsEdge.addArguments("--remote-allow-origins=*");
-			if (browser.contains("Chrome")) {
-				WebDriverManager.chromedriver().setup();
-				setDriver(new ChromeDriver(options));
-				getDriver().manage().window().maximize();
-				System.out.println(getDriver() + " Driver has been instantiated. ");
-			} else if (browser.contains("Firefox")) {
-				WebDriverManager.firefoxdriver().setup();
-				setDriver(new FirefoxDriver());
-				getDriver().manage().window().maximize();
-				System.out.println(getDriver() + " Driver has been instantiated. ");
-			} else if (browser.contains("Edge")) {
-				WebDriverManager.edgedriver().setup();
-				setDriver(new EdgeDriver(optionsEdge));
-				getDriver().manage().deleteAllCookies();
-				getDriver().manage().window().maximize();
-				System.out.println(getDriver() + " Driver has been instantiated. ");
-			}
-			Action.implicitWait(getDriver(), 10);
-			Action.pageLoadTimeOut(getDriver(), 30);
-			getDriver().get(prop.getProperty("url"));
-		}
-	}
+    private FirefoxOptions getFirefoxOptions(String os) {
+        FirefoxOptions options = new FirefoxOptions();
+        if (os.equalsIgnoreCase("Windows")) {
+            FirefoxProfile profile = new FirefoxProfile();
+            profile.setPreference("browser.download.folderList", 1);
+            profile.setPreference("browser.download.manager.showWhenStarting", false);
+            profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+            profile.setPreference("browser.download.manager.closeWhenDone", true);
+            profile.setPreference("browser.download.manager.showAlertOnComplete", false);
+            profile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream");
+            options.setProfile(profile);
+        }
+        return options;
+    }
 
-	@AfterTest(alwaysRun = true)
-	public void quitDriver() throws InterruptedException {
-		WebDriver driver = getDriver();
-		if (getDriver() != null) {
-			System.out.println("Driver process found to close");
-			driver.quit();
-		} else {
-			System.out.println("Driver instance is not closed.");
-		}
-	}
+    private EdgeOptions getEdgeOptions() {
+        EdgeOptions options = new EdgeOptions();
+        options.setExperimentalOption("excludeSwitches", List.of("disable-popup-blocking"));
+        options.addArguments("--remote-allow-origins=*");
+        return options;
+    }
+
+    private void setupBrowser() {
+        WebDriver driver = getDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+        Action.implicitWait(driver, 10);
+        Action.pageLoadTimeOut(driver, 60);
+        driver.get(prop.getProperty("url"));
+    }
+
+    @AfterTest(alwaysRun = true)
+    public void quitDriver() {
+        WebDriver driver = getDriver();
+        if (driver != null) {
+            driver.quit();
+            System.out.println("Driver process terminated successfully.");
+        } else {
+            System.out.println("No driver instance found to close.");
+        }
+    }
 }

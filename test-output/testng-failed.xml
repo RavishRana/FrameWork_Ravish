@@ -4,9 +4,9 @@
   <listeners>
     <listener class-name="com.mystore.reporting.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Edge"/>
+    <parameter name="browser" value="Chrome"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browser_version" value="latest"/>
     <classes>
@@ -19,21 +19,5 @@
         </methods>
       </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
-  <test thread-count="5" parallel="tests" name="FireFoxTest(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="Firefox"/>
-    <parameter name="os_version" value="10"/>
-    <parameter name="browser_version" value="latest"/>
-    <classes>
-      <class name="com.mystore.testcases.FlipkartHomeTest">
-        <methods>
-          <include name="launchAppBrowserStack"/>
-          <include name="loadConfig"/>
-          <include name="printProducts"/>
-          <include name="quitDriver"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.FlipkartHomeTest -->
-    </classes>
-  </test> <!-- FireFoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
